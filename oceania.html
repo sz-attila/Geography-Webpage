@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Világjáró</title>
+    <link rel="stylesheet" href="oceania-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/df65ae6f97.js"></script>
+    <script type="text/javascript" src="menu.js"></script>  
+</head>
+<body>
+    <section class="header"> 
+        <nav>
+            <a class="title">VILÁGJÁRÓ</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">KEZDŐLAP</a></li>
+                    <div class="dropdown">
+                        <li><a href="continents.html">KONTINENSEK</a></li>
+                        <div class="dropdown-content">
+                            <a href="africa.html">Afrika</a>
+                            <a href="europa.html">Európa</a>
+                            <a href="asia.html">Ázsia</a>
+                            <a href="north-america.html">Észak-Amerika</a>
+                            <a href="south-america.html">Dél-Amerika</a>
+                            <a href="oceania.html">Óceánia</a>
+                        </div>
+                    </div>
+                    <li><a href="">JÁTÉKOK</a></li>
+                    <li><a href="">KAPCSOLAT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="inst-container">
+            <h1>ÓCEÁNIA</h1>
+        </div>
+    </section>
+    <section class="continent-container">
+        <div class="inst-container">
+            <h2>Ausztrália</h2>
+        </div>
+        <div class="row">
+            <div class="col" id="detailed">
+                <h3 onclick="showDiv('ausztralia'); return false;">Ausztrália</h3>
+                <img src="Oceania/Flag_of_Australia.jpg">
+            </div>
+            <div class="col" id="undetailed">
+                <h3 onclick="showDiv('karacsony'); return false;">Karácsony-sziget</h3>
+                <img src="Oceania/Flag_of_Christmas_Island.jpg">
+            </div>
+            <div class="col" id="undetailed">
+                <h3 onclick="showDiv('nork'); return false;">Norkfolk-sziget</h3>
+                <img src="Oceania/Flag_of_Norfolk_Island.jpg">
+            </div>
+        </div>
+
+        <!--HIDDEN DIV SECTION START-->
+
+        <div class="hidden" id="ausztralia" style="display: none;">
+            <h1>AUSZTRÁLIA</h1>
+            <div class="hidden-row" >
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Canberra</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 25 700 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>7 692 024 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Fedéralizált állam</p>
+                    <h3>Pénznem</h3>
+                    <p>Ausztrál dollár</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Egy kontinensnyi ország</h3>
+                    <p>A legkésőbb felfedezett lakott kontinens, Ausztrália. Északkeleti partja előtt körülbelül
+                        2000 km hosszan a Nagy-korallzátony húzódik,
+                        délkeleti „csücskénél” Tasmánia szigete emelkedik ki
+                        az óceánból. A kontinens alapja a Nyugat-ausztráliai-ősföld, ami egy hatalmas kiterjedésű táblás vidék.
+                        Területéből több helyen is ősi hegységek lekopott rögei
+                        emelkednek ki. Belső részeit sivatagok, félsivatagok
+                        borítják. Az Ausztráliai-alföld egy hatalmas medencerendszer. Ennek része a Nagy-Artézi-medence. A nagyobb mélyedéseket sós tavak töltik ki. A földrészt
+                        keleten a rögös szerkezetű Nagy-Vízválasztó-hegység
+                        szegélyezi. Ausztrália legjelentősebb folyója a Murray.</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Éghajlat</h3>
+                    <p>Ausztrália legnagyobb része a forró, kisebb része a
+                        mérsékelt övezetbe tartozik. A Baktérítő nagyjából kö -
+                        zépen „szeli ketté” a kontinenst. A csapadék mennyisége
+                        a tengerpartoktól a szárazföld belseje felé haladva
+                        fokozatosan csökken, ennek megfelelően változik
+                        a természeti környezet is.
+                        A kontinens belsejét sivatagok, só- és szárazságtűrő
+                        növényekkel fedett félsivatagok uralják. A földrész kétharmad része belső lefolyású terület
+                        A keleti partvidék jellegzetes növényzete az örökzöld babérerdő, ahol hatalmas eukaliptuszfák
+                        tornyosulnak az ég felé.
+                    </p>
+                </div>
+            </div>
+            <div class="hidden-row">
+                <div class="hidden-col">
+                    <h3>Népesség</h3>
+                    <p>Az egyetlen országot felölelő kontinens őslakóinak
+                        száma mára igencsak megfogyatkozott. Ausztrália mai
+                        lakosságának többsége Európából származó bevándorló.
+                        Amennyiben az Antarktisztól eltekintünk, Ausztrália
+                        a legritkábban lakott földrész, népsűrűsége nem éri el
+                        a 4 fő/km2
+                        -t sem. A népesség nagy része a kellemesebb
+                        éghajlatú délkeleti tengerpart nagyvárosaiban összpontosul</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Mezőgazdaság</h3>
+                    <p>Ausztráliában a mezőgazdaság vezető ágazata az állattenyésztés. 
+                        Itt található a Föld egyik legnagyobb juhállománya. 
+                        A csapadékosabb vidékeken szarvasmarhát
+                        tartanak. Ausztrália a világ legnagyobb gyapjú-, búza-,
+                        és cukorexportőrei közé tartozik.</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Ipar</h3>
+                    <p>Ausztrália földtani adottságainak köszönhetően ásványkincsekben rendkívül gazdag, 
+                        e téren igazi nagyhatalomnak számít. A bauxit és vasérc bányászatában is
+                        a világelsők között van, de ugyanez elmondható a színesfémércek, a nemesfémércek, az uránérc és a gyémánt
+                        kitermeléséről is. Az ország legfontosabb energiahordozója
+                        a Nagy-Vízválasztó-hegységben bányászott kőszén.</p>
+                </div>
+            </div>
+            <div class="hidden-row">
+                <div class="hidden-col">
+                    <h3>Városok</h3>
+                    <p>Ausztrália ipari termelése a legnépesebb város, Sydney
+                        és a pénzügyi, kereskedelmi központ, Melbourne köré
+                        csoportosul. Az ország fővárosa, Canberra gazdasági
+                        súlya nem számottevő. A délnyugati országrész egyetlen
+                        nagyvárosa Perth.</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Híres ausztrál emberek</h3>
+                    <p>Hugh Jackman, Chris Hemsworth, Olivia Newton-John, 
+                        Kylie Minogue, Ben Simmons, Daniel Ricciardo, 
+                        Paul Hogan, Heath Ledger,
+                        Russel Crowe, Nicole Kidman, 
+                    </p>
+                </div>
+            </div>
+            <button onclick="hideDiv('ausztralia');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <div class="hidden" id="karacsony" style="display: none;">
+            <h1>KARÁCSONY-SZIGET</h1>
+            <h3>AUSZTRÁLIA TERÜLETE</h3>  
+            <div class="hidden-row" >
+                <div class="dummy-col">
+                    
+                </div>
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Flying Fish Cove</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 2 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>135 km2</p>
+                    <h3>Államforma</h3>
+                    <p>Autonóm terület</p>
+                    <h3>Pénznem</h3>
+                    <p>Ausztrál dollár</p>
+                </div>      
+                <div class="dummy-col">
+                    
+                </div>
+            </div>
+            <button onclick="hideDiv('karacsony');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <div class="hidden" id="nork" style="display: none;">
+            <h1>NORKFOLK-SZIGET</h1>
+            <div class="hidden-row" >
+                <div class="dummy-col">
+                    
+                </div>
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Kingston</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 23 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>34 km2</p>
+                    <h3>Államforma</h3>
+                    <p>Autonóm terület</p>
+                    <h3>Pénznem</h3>
+                    <p>Ausztrál dollár</p>
+                </div>          
+                <div class="dummy-col">
+                    
+                </div>
+            </div>
+            <button onclick="hideDiv('nork');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <!--HIDDEN DIV SECTION END-->
+
+        <div class="inst-container">
+            <h2>Melanézia</h2>
+        </div>
+        <div class="row">
+            <div class="dummy-col">
+
+            </div>
+            <div class="col" id="detailed">
+                <h3 onclick="showDiv('melanezia'); return false;">Melanézia</h3>
+                <img src="Images/melanezia.png">
+            </div>
+            <div class="dummy-col">
+
+            </div>
+        </div>
+
+        <!--HIDDEN DIV SECTION START-->
+
+        <div class="hidden" id="melanezia" style="display: none;">
+            <h1>MELANÉZIA</h1>
+            <div class="hidden-row" >
+                <div class="hidden-col">
+                    <h3>Óceánia</h3>
+                    <p>Óceánia a Csendes-óceán hatalmas, több ezer kisebbnagyobb szárazulatból álló szigetvilága. Három nagy
+                        szigetcsoportja: Melanézia (nevének jelentése: „a fekete
+                        szigetek világa”), Mikronézia („a kis szigetek világa”)
+                        és Polinézia („a sok sziget világa”).</p>
+                    <h3>Eredete</h3>
+                    <p>Melanézia Óceánia egy földrajzi és etnokulturális régiója, amely a Csendes-óceán nyugati részén, 
+                         Ausztráliától északra terül el. Az elnevezést Jules Dumont d'Urville francia felfedező alkotta meg, 
+                         hogy a területet elkülönítse a földrajzilag és etnikailag eltérő Polinéziától és Mikronéziától. 
+                         Ez persze nem jelenti azt, hogy Melanézia egységes lenne nyelvileg vagy kulturálisan. 
+                         A régió őslakói két fő csoportra oszthatók: ausztronézekre és pápuákra.</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Kultúra</h3>
+                    <p>Ezeken a szigeten találhatók a térség legszebb műkincsei, valamint itt találhatók 
+                        a művészeti központok. A maláj és új-guineai hatás, ahol az alkotásokat élők és 
+                        holtak szoros együttélése ihleti, gazdagította a díszítőművészetet.
+                        Melanézia egyes vidékein még ma is minden háztartási eszközt és szerszámot díszítenek. 
+                        A mindennapi élet tárgyait, a szertartások eszközeit realisztikusan vagy elvont formákkal 
+                        díszítik. Gyémántfejben végződő kerek kőbuzogányok, pajzsok, áttetsző, dúsan díszített bárdok jellemzőek.                       
+                        A fából vagy háncsból készült, élénk színekre festett maszkok különlegességét fokozza a kagylók, 
+                        állatfogak, haj alkalmazása. Ékszereiken bőven használnak madártollakat, szobraikat kő- vagy 
+                        kagylópengéjű bárdokkal faragják, az Új-Hebridákon hatalmas dobokat, faedényeket készítenek.                       
+                        Az agyagművességet napjainkban csak a Fidzsi-szigeteken gyakorolják, 
+                        de két vagy három évezreden át az Új-Hebridákon is űzték. A Sepik völgyének lakosai olyan 
+                        plasztikai és festészeti alkotásokat hoztak létre, melyek később a szürrealistákra hatottak.                        
+                        A fakéregre készült koromrajzok erdei démonokat és más mágikus lényeket ábrázolnak. A totemizmus erősen érvényesült. 
+                        A melanézek sok tárgya totemként használható. Népszerű ősi figurák voltak az Uli-figurák, a nagy fejű, kis testű, 
+                        apró lábú alakok. Az indiai kereskedők által behozott indiai szobrok is hatottak a térség művészetére, 
+                        érezhető még egy bizonyos kínai befolyás is.</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Részei</h3>
+                    <p>A következő szigeteket és szigetcsoportokat sorolják Melanéziához:
+                    <p>Maluku-szigetek (Indonézia része)</p>
+                    <p>Új-Guinea (a nyugati fele Indonézia része, a keleti Pápua Új-Guinea)</p>
+                    <p>Bismarck-szigetek (Pápua Új-Guinea része)</p>
+                    <p>Trobriand-szigetek (Pápua Új-Guinea része)</p>
+                    <p>Torres-szigetek (Ausztrália része)</p>
+                    <p>Salamon-szigetek</p>
+                    <p>Vanuatu</p>
+                    <p>Új-Kaledónia (Franciaország tengerentúli területe)</p>
+                    <p>Fidzsi-szigetek</p>
+                </div>
+            </div>
+            <button onclick="hideDiv('melanezia');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <!--HIDDEN DIV SECTION END-->
+
+        <div class="row">
+            <div class="col" id="undetailed">
+                <h3 onclick="showDiv('fidzsi'); return false;">Fidzsi-szigetek</h3>
+                <img src="Oceania/Flag_of_Fiji.jpg">
+            </div>
+            <div class="col" id="undetailed">
+                <h3 onclick="showDiv('papua'); return false;">Pápua Új-Guinea</h3>
+                <img src="Oceania/Flag_of_Papua_New_Guinea.jpg">
+            </div>
+            <div class="col" id="undetailed">
+                <h3 onclick="showDiv('salamon'); return false;">Salamon-szigetek</h3>
+                <img src="Oceania/Flag_of_the_Solomon_Islands.jpg">
+            </div>
+            <div class="col" id="undetailed">
+                <h3 onclick="showDiv('vanuatu'); return false;">Vanuatu</h3>
+                <img src="Oceania/1280px-Flag_of_Vanuatu.jpg">
+            </div>
+        </div>
+
+        <!--HIDDEN DIV SECTION START-->
+
+        <div class="hidden" id="fidzsi" style="display: none;">
+            <h1>FIDZSI-SZIGETEK</h1>
+            <div class="hidden-row" >
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Suva</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 900 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>18 270 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Parlamentarizmus</p>
+                    <h3>Pénznem</h3>
+                    <p>Fidzsi dollár</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Részletek</h3>
+                    <p>A Fidzsi-szigetek egy ország és szigetcsoport a Csendes-óceán déli részén. Hivatalos neve: Fidzsi-szigeteki Köztársaság,
+                        Matanitou ko Viti. Cook kapitány a tongaiaktól hallotta a viti szót (helyi nyelven jelentése: 'nagy'), 
+                        és átírta: így lett belőle először Fidgee, Feejee és végül Fiji angolul.
+                        A szigetcsoport Új-Zélandtól 2000 km-re északra, két nagy és sok apró szigetből áll. A 322 sziget közül 106 lakott.
+                        Szárazföldi határa nincs, legközelebbi szomszédjai nyugatról Vanuatu, keletről Tonga és északról Tuvalu.
+                        860 ezer lakosával Ausztrália és Óceánia negyedik legnépesebb országa.</p>
+                </div>
+            </div>
+            <button onclick="hideDiv('fidzsi');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <div class="hidden" id="papua" style="display: none;">
+            <h1>PÁPUA ÚJ-GUINEA</h1>
+            <div class="hidden-row" >
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Port Moresby</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 7 000 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>462 840 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Parlamentarizmus</p>
+                    <h3>Pénznem</h3>
+                    <p>Pápua új-guineai kina</p>
+                    
+                </div> 
+                <div class="hidden-col">
+                    <h3>Részletek</h3>
+                    <p>Pápua Új-Guinea vagy hivatalos nevén: Pápua Új-Guinea Független Állam óceániai ország. 
+                        A Föld második legnagyobb szigetének, Új-Guinea szigetének keleti részét és számtalan kisebb szigetet foglalja magában. 
+                        A mai állam területe a gyarmati múlt következményeként alakult ki.</p>
+                    <h3>Kultúra</h3>
+                    <p>Pápua Új-Guinea kultúrájára a rendkívüli sokszínűség jellemző, mivel az országban több száz kisebb népcsoport él, 
+                        főként a belső területek falvaiban. A pápua falvakra a 20. században jellemző, hogy külön nagy házban élnek a férfiak és a nők. 
+                        A sértéseket vérbosszúval torolták meg, emiatt gyakori volt régen a törzsek közötti háborúskodás.</p>
+                    <p>Pápua Új-Guinea egyedülálló a világon abban a tekintetben, hogy egy országon belül itt beszélik a 
+                        legtöbb különböző nyelvet: az országban a jelenlegi ismeretek szerint 841 nyelvet beszélnek (ebből 11 nyelvnek nincs ismert beszélője, így is marad 830), 
+                        ami a világ összes nyelveinek kb. egynyolcada, nyelvenként átlagosan kb. 6000 beszélővel.</p>
+                </div>
+            </div>
+            <button onclick="hideDiv('papua');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <div class="hidden" id="salamon" style="display: none;">
+            <h1>SALAMON-SZIGETEK</h1>
+            <div class="hidden-row">
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Honiara</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 600 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>28 896 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Parlamentarizmus</p>
+                    <h3>Pénznem</h3>
+                    <p>Salamon-szigeteki dollár</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Kultúra</h3>
+                    <p>A Salamon-szigetek lakóinak egy része a mai napig a több ezer éves hagyományok szerint éli az életét, 
+                        megpróbálják megakadályozni azt, hogy a modern civilizáció eltüntesse az ősi tradíciókat. Ez leginkább malaita tartományra jellemző.
+                        A szigetek mindegyikén kialakult a rá jellemző kultúra. Erre jó példa a kenuk díszítésének szigetenként való eltérése. 
+                        Rendkívül jellemző a fregattmadár motívumának felhasználása különböző puha fákból készült faragványokon. 
+                        A madarat gyakran hallal a karmai közt ábrázolják.                       
+                        A testdíszítés, az ékszerek különböző formái rendkívül elterjedtek. Főleg kagylókat használnak fel ilyen célokra.                        
+                        Az őslakosok kisebb közösségekben élnek szétszórva. Minden ilyen közösségnek van egy törzsfője, akinek nagyobb 
+                        háza van a többiekénél. A tengerparti településeken a „kenuház” a színhelye az ifjak férfivá avatásának, ide nőnek tilos belépni. 
+                        A férfivá avatás fontos része a tonhal halászatának elsajátítása.                        
+                        A szigeteken a homoszexualitás mind férfiak, mind nők esetében illegális és büntetendő, ahogyan a közterületi káromkodás is.</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Részletek</h3>
+                    <p>A Salamon-szigetek egy független állam Ausztráliától északkeletre, amely hat fő szigetből és több mint 900 kisebb szigetből áll. 
+                        Az állam a Melanéziához tartozó, vulkanikus eredetű Salamon-szigetek legtöbbjét és a Santa Cruz-szigeteket 
+                        foglalja magában a Csendes-óceán nyugati részén. Bougainville és Buka földrajzi értelemben a Salamon-szigetek 
+                        csoportjához tartozik, politikailag azonban Pápua Új-Guineához.
+                        1978 óta a Nemzetközösség része.</p>
+                    <p>A Salamon-szigetek lakossága túlnyomórészt melanéz, ez a kultúrájukra is rányomja bélyegét. 
+                        Pápua Új-Guineával nagy fokú rokonság tapasztalható kulturális téren. Melanézia többi részével 
+                        együtt a Salamon-szigeten konzerválódott leginkább a modern kor által érintetlen óceániai kultúra.
+                        Hosszú évszázadokig ismeretlen világ volt ez az európaiak számára. Az európaitól igen eltérő kultúra alakult ki ezeken a szigeteken, 
+                        mely a totális izoláltságuknak köszönhető. Egyes régészeti kutatások 40 ezer évvel 
+                        ezelőtti civilizáció jelenlétéről tesznek tanúbizonyságot.</p>
+                </div>
+            </div>
+            <button onclick="hideDiv('salamon');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <div class="hidden" id="vanuatu" style="display: none;">
+            <h1>VANUATU</h1>
+            <div class="hidden-row" >
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Port Vila</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 300 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>12 190 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Parlamentarizmus</p>
+                    <h3>Pénznem</h3>
+                    <p>Vanuatui dollár</p>
+                    
+                </div>
+                <div class="hidden-col">
+                    <h3>Kultúra</h3>
+                    <p><p>Vanuatu megőrizte színes kultúráját és az ősi művészeti tárgyak, a fából készült szobrok, maszkok, dobok, 
+                        edények a mai napig része a lakosság mindennapjainak. Több szigeten fellelhetőek sziklarajzok, állatfestmények, 
+                        melyekhez legendák és dalok fűződnek ünnepségeiken.
+                        A kagylóból készült nyak- és bokaláncok, a faragott tálak, maszkok, miniatűr kenuk, állatok, íjak, nyilak, 
+                        lándzsák szorosan kapcsolódnak a rituális szertartásokhoz.
+                        A Shepherd-szigeteken különösen szép, gyakran faragott alakú madarak és halak is megtalálhatók az edényeken, tálakon.                        
+                        A fővárosban és Luganville-ben található művészeti múzeumok csodás képet alkotnak a melanéz művészetről és a kultúráról.                       
+                        A fiatal férfiaknál még mindig hagyomány a rituális körülmetélés.</p></p>
+                </div>
+            </div>
+            <button onclick="hideDiv('vanuatu');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <!--HIDDEN DIV SECTION END-->
+
+        <div class="inst-container">
+            <h2>Mikronézia</h2>
+        </div>
+        <div class="row">
+            <div class="dummy-col">
+
+            </div>
+            <div class="col" id="detailed">
+                <h3 onclick="showDiv('mikronezia'); return false;">Mikronézia</h3>
+                <img src="Images/mikronezia.png">
+            </div>
+            <div class="dummy-col">
+
+            </div>
+        </div>
+
+        <!--HIDDEN DIV SECTION START-->
+
+        <div class="hidden" id="mikronezia" style="display: none;">
+            <h1>MIKRONÉZIA</h1>
+            <div class="hidden-row" >
+                <div class="hidden-col">
+                    <h3>Óceánia</h3>
+                    <p>Óceánia a Csendes-óceán hatalmas, több ezer kisebbnagyobb szárazulatból álló szigetvilága. Három nagy
+                        szigetcsoportja: Melanézia (nevének jelentése: „a fekete
+                        szigetek világa”), Mikronézia („a kis szigetek világa”)
+                        és Polinézia („a sok sziget világa”).</p>
+                    <h3>Eredete</h3>
+                    <p> Mikronézia sok ezer apró szigetből áll.
+                        A térségben találjuk a Föld felszínének legmélyebb pontját, a Mariana-árkot. Két óceáni kőzetlemez
+                        közeledésének és egyikük alábukásának helyén alakult
+                        ki e mélytengeri árok. Az alábukás következménye az
+                        a vulkáni tevékenység, melynek során a feláramló lávából
+                        szigetívek épültek. A szigetek tehát a tenger mélyéből
+                        kiemelkedő vulkáni hegyek. Ezek peremén korallok
+                        telepedhetnek meg, így a szigeteket egy idő után korallgyűrű ölelheti körbe. Ha a vulkáni kúpot a külső erők
+                        lepusztítják, a tengerszint felett már csak a gyűrű alakú
+                        korallszigetet láthatjuk. Ez az úgynevezett atoll</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Népesség</h3>
+                    <p>Mikronézia mai lakossága több népcsoportból áll, de mind Mikronézia leszármazottai és a mikronéz kultúrához tartoznak. 
+                        Ez a kultúra egyike azoknak az őshonos kultúráknak, melyek a legkésőbb alakultak ki, melanéz, filippínó és polinéz keveredés eredményeként. 
+                        A leszármazottak ilyen keveredése miatt a mikronézek közelebbinek érzik magukhoz Melanézia, Polinézia vagy a Fülöp-szigetek népeit. 
+                        A legjobb példa erre Yap lakosai, akik a Fülöp-szigetek északi részének ausztronéz törzseihez köthetők.</p>
+                    <p>A különböző származású mikronéz bennszülöttek nyelve az ausztronéz nyelvcsaládhoz, ezen belül az Óceániai-nyelvekhez tartozik. 
+                        Két kivétel a chamorro nyelv a Mariana-szigeteken és a palauan nyelv Palaun, melyek a nyugat maláj-polinéz nyelvek közé csoportosíthatók. 
+                        Ez utóbbi alcsoport tartalmazza mindazon nyelveket, melyeket ma is beszélnek 
+                        a Fülöp-szigeteken, Malajziában és Indonéziában.
+                        A Mikronéziai Szövetségi Államok keleti szélén használatos nakuoro és 
+                        kapingamarangi nyelvek a polinéz nyelv szélsőséges nyugat felé terjeszkedését tanúsítja.</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Részei</h3>
+                    <p>Banaba, Kiribati (Gilbert-szigetek) külső területén</p>
+                    <p>Gilbert-szigetek, melyek Kiribati részei</p>
+                    <p>Mariana-szigetek, politikailag megosztva Guam és az Északi-Mariana-szigetek között</p>
+                    <p>Marshall-szigetek</p>
+                    <p>Karolina-szigetek, politikailag megosztva Palau és a Mikronéziai Szövetségi Államok között</p>
+                    <p>Nauru</p>
+                    <p>Wake-sziget</p>  
+                </div>
+            </div>
+            <button onclick="hideDiv('mikronezia');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <!--HIDDEN DIV SECTION END-->
+
+        <div class="row">
+            <div class="col" id="undetailed">
+                <h3 onclick="showDiv('kirib'); return false;">Kiribati</h3>
+                <img src="Oceania/Flag_of_Kiribati.jpg">
+            </div>
+            <div class="col" id="undetailed">
+                <h3 onclick="showDiv('marsh'); return false;">Marshall-szigetek</h3>
+                <img src="Oceania/Flag_of_the_Marshall_Islands.jpg">
+            </div>
+            <div class="col" id="undetailed">
+                <h3 onclick="showDiv('mikro'); return false;">Mikronéziai Szövetségi Államok</h3>
+                <img src="Oceania/1920px-Flag_of_the_Federated_States_of_Micronesia.jpg">
+            </div>
+            <div class="col" id="undetailed">
+                <h3 onclick="showDiv('nauru'); return false;">Nauru</h3>
+                <img src="Oceania/Flag_of_Nauru.jpg">
+            </div>
+            <div class="col" id="undetailed">
+                <h3 onclick="showDiv('palau'); return false;">Palau</h3>
+                <img src="Oceania/1280px-Flag_of_Palau.jpg">
+            </div>
+        </div>
+
+        <!--HIDDEN DIV SECTION START-->
+
+        <div class="hidden" id="kirib" style="display: none;">
+            <h1>KIRIBATI</h1>
+            <div class="hidden-row" >
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>South Tarawa</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 105 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>811 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Parlamentarizmus</p>
+                    <h3>Pénznem</h3>
+                    <p>Ausztrál dollár</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>RÉSZLETEK</h3>
+                    <p>Kiribati az Egyenlítő mentén elhelyezkedő 33 korallszigetből áll 
+                        (ebből 21 lakott, egyikük neve Kiritimati, vagyis Karácsony-sziget), félúton Hawaii és Ausztrália között.
+                        A szigetcsoport korábbi neve Gilbert-szigetek volt. A Nagy-Britanniától való önállóság 1971-es, 
+                        majd a teljes függetlenség 1979-es kikiáltása után felvették a Kiribati nevet. 
+                        Ugyanekkor az Amerikai Egyesült Államok a szigetcsoport egy részét (Phoenix és Line-szigetek) 
+                        érintő területi követeléséről lemondott, és barátsági szerződést kötött az új állammal.                        
+                        Napjainkban szigeteinek létét erősen fenyegeti a globális felmelegedés és az ezzel járó tengerszint-emelkedés. 
+                        Kiribati az első ország lehet, amely emiatt eltűnik a Földről.</p>
+                </div>
+            </div>
+            <button onclick="hideDiv('kirib');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <div class="hidden" id="marsh" style="display: none;">
+            <h1>MARSHALL-SZIGETEK</h1>
+            <div class="hidden-row" >
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Majuro</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 73 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>181 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Parlamentarizmus</p>
+                    <h3>Pénznem</h3>
+                    <p>Ausztrál dollár</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Részletek</h3>
+                    <p>A Marshall-szigetek Óceániában elhelyezkedő állam. Mikronézia szigetvilágában Hawaii és Ausztrália között félúton található. 
+                        Két szigetcsoport: a Ratak- és Ralik-szigetlánc (16 és 18 korall-atoll) és több kis korallpad alkotja. Az állam neve J. Marshall angol 
+                        hajóskapitány nevét viseli, aki 1788-ban végzett kutatásokat a területen. (A spanyolok révén már régóta ismert volt a szigetcsoport). 
+                        Az Egyesült Államokhoz 1947 és 1990 között tartozó társult állam, 1991-ben nyerte el teljes függetlenségét. Legismertebb atolljai a 
+                        Bikini- és az Eniwetok-atoll, melyek az amerikaiak atomfegyver kísérleteiről váltak híressé. Az ország gazdasága nagyban függ az 
+                        USA által használt katonai támaszpontokért cserébe nyújtott segélyektől. 
+                        A lakosság főként földműveléssel és halászattal foglalkozik.</p>
+                </div>
+            </div>
+            <button onclick="hideDiv('marsh');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <div class="hidden" id="mikro" style="display: none;">
+            <h1>MIKRONÉZIAI SZÖVETSÉGI ÁLLAMOK</h1>
+            <div class="hidden-row" >
+                <div class="dummy-col">
+                    
+                </div>
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Palikir</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 100 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>702 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Parlamentarizmus</p>
+                    <h3>Pénznem</h3>
+                    <p>Ausztrál dollár</p>
+                </div>                
+                <div class="dummy-col">
+                    
+                </div>
+            </div>
+            <button onclick="hideDiv('mikro');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <div class="hidden" id="nauru" style="display: none;">
+            <h1>NAURU</h1>
+            <div class="hidden-row" >
+                <div class="dummy-col">
+                    
+                </div>
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Yaren</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 10 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>21 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Parlamentarizmus</p>
+                    <h3>Pénznem</h3>
+                    <p>Ausztrál dollár</p>
+                </div>              
+                <div class="dummy-col">
+                    
+                </div>
+            </div>
+            <button onclick="hideDiv('nauru');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <div class="hidden" id="palau" style="display: none;">
+            <h1>PALAU</h1>
+            <div class="hidden-row" >
+                <div class="dummy-col">
+                    
+                </div>
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Ngerulmud</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 20 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>459 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Parlamentarizmus</p>
+                    <h3>Pénznem</h3>
+                    <p>Ausztrál dollár</p>
+                </div>               
+                <div class="dummy-col">
+                    
+                </div>
+            </div>
+            <button onclick="hideDiv('palau');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <!--HIDDEN DIV SECTION END-->
+
+        <div class="inst-container">
+            <h2>Polinézia</h2>
+        </div>
+        <div class="row">
+            <div class="dummy-col">
+
+            </div>
+            <div class="col" id="detailed">
+                <h3 onclick="showDiv('polinezia'); return false;">Polinézia</h3>
+                <img src="Images/polinezia.png">
+            </div>
+            <div class="dummy-col">
+
+            </div>
+        </div>
+
+        <!--HIDDEN DIV SECTION START-->
+
+        <div class="hidden" id="polinezia" style="display: none;">
+            <h1>POLINÉZIA</h1>
+            <div class="hidden-row" >
+                <div class="hidden-col">
+                    <h3>Óceánia</h3>
+                    <p>Óceánia a Csendes-óceán hatalmas, több ezer kisebbnagyobb szárazulatból álló szigetvilága. Három nagy
+                        szigetcsoportja: Melanézia (nevének jelentése: „a fekete
+                        szigetek világa”), Mikronézia („a kis szigetek világa”)
+                        és Polinézia („a sok sziget világa”).</p>
+                    <h3>Eredete</h3>
+                    <p> Polinézia sok ezer apró szigetből áll.
+                        A Polinéziához tartozó Hawaii-szigetek csoportja is
+                        vulkanikus eredetű. Négyezer méter fölé nyúló tűzhányói a ma is aktív Mauna Loa, és a már szunnyadó
+                        Mauna Kea. A szigetcsoport egyike a Föld legcsapadékosabb helyeinek.</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Részletek</h3>
+                    <p>Polinézia Óceánia egyik etnokulturális régiója, amely a Csendes-óceán déli és középső részén fekvő, 
+                        körülbelül 1000 szigetet foglalja magába. A terület lakói a polinézek. A 21. század fordulóján a terület lakosságának 70%-a Hawaiin élt.
+                        Az elnevezést, mely eredetileg az összes Csendes-óceánon található szigetre utalt, Charles de Brosses francia író használta először.
+                        Honfitársa, Jules Dumont d'Urville 1831-ben javasolta, hogy a területet különítsék el három régióra, Mikronéziára, Melanéziára, 
+                        és csak az e kettőn kívül eső területeket nevezzék Polinéziának.</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Részei</h3>
+                    <p>Új-Zéland</p>
+                    <p>Tuvalu</p>
+                    <p>Tonga</p>
+                    <p>Szamoa</p>
+                    <p>Niue</p>
+                    <p>Cook-szigetek</p>
+                    <p>Hawaii, Amerikai Szamoa, Johnston, Baker, Howland, Jarvis, Palmyra (USA)</p>
+                    <p>Francia Polinézia, Wallis és Futuna (Franciaország)</p>
+                    <p>Chatham-szigetek, Tokelau (Új-Zéland)</p>
+                    <p>Pitcairn-szigetek (Egyesült Királyság)</p>
+                    <p>Húsvét-sziget (Chile)</p>
+                      
+                </div>
+            </div>
+            <button onclick="hideDiv('polinezia');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <!--HIDDEN DIV SECTION END-->
+        <div class="row">
+            <div class="col" id="detailed">
+                <h3 onclick="showDiv('ujzel'); return false;">Új-Zéland</h3>
+                <img src="Oceania/Flag_of_New_Zealand.jpg">
+            </div>
+            <div class="col" id="undetailed">
+                <h3 onclick="showDiv('cook'); return false;">Cook-szigetek</h3>
+                <img src="Oceania/1920px-Flag_of_the_Cook_Islands.jpg">
+            </div>
+            <div class="col" id="undetailed">
+                <h3 onclick="showDiv('niue'); return false;">Niue</h3>
+                <img src="Oceania/1920px-Flag_of_Niue.jpg">
+            </div>
+            
+        </div>
+
+        <!--HIDDEN DIV SECTION START-->
+
+        <div class="hidden" id="ujzel" style="display: none;">
+            <h1>ÚJ-ZÉLAND</h1>
+            <div class="hidden-row" >
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Wellington</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 5 000 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>268 680 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Monarchia</p>
+                    <h3>Pénznem</h3>
+                    <p>Új-Zélandi dollár</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Részletek</h3>
+                    <p>Új-Zéland két nagy és több kisebb szigete a déli mérsékelt övezetben fekszik. Az északi sziget vulkanikus 
+                        jelenségekben bővelkedik, ezért a „tűz szigetének” is nevezik. A déli sziget látványos, jég formálta
+                        hegyvonulataival hívja fel magára a figyelmet. A „jég
+                        szigeteként” is említik.</p>
+                    <h3>Kultúra</h3>
+                    <p>A maori kultúra talán leghitelesebb, belső ábrázolása volt S. Percy Smith, a Polynesian Society (Polinéziai Társaság) 
+                        akkori elnökének könyve, a Lore of the Whare-wānanga, mely 1913-ban jelent meg New Plymouthban, Új-Zélandon.
+                        Új-Zéland kultúrájáról és szellemtörténetéről is szól Nagy Emilné dr. Göllner Mária Dialog der Hemisphären 
+                        (A hemiszférák párbeszéde) című műve, melynek csaknem teljes szövege magyarul is olvasható a Michaeliták c. kötet részeként.  </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Kultúra</h3>
+                    <p>                     
+                        Új-Zéland őslakosainak jelenkori életéről szól a nagy hatású Once Were Warriors (Egykoron harcosok voltak) című 1990-es könyv, 
+                        és a belőle készült, világszerte bemutatott film. A történet középpontjában egy, a városi, modern élethez nehezen alkalmazkodó 
+                        maori család (hisz' őseik „egykor harcosok voltak”), és annak belső konfliktusai állnak. A cselekmény a modern civilizáció, és a 
+                        tradíciók ambivalens viszonyát mutatja be a szereplők küzdelmein keresztül. A maori mitológia elemeinek felhasználásával készült 
+                        a 2003-ban bemutatott új-zélandi film, a Whalerider (Bálnalovas) és a hasonló című könyv. Különösen ismert, világszerte szakmai és kasszasikert aratott 
+                        A Gyűrűk Ura, ami a filmtörténelem egyik legnagyobb alkotása és nagyrészt új-zélandi produkció.</p>
+                </div>
+            </div>
+            <button onclick="hideDiv('ujzel');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <div class="hidden" id="cook" style="display: none;">
+            <h1>COOK-SZIGETEK</h1>
+            <div class="hidden-row" >
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Avarua</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 17 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>240 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Parlamentarizmus</p>
+                    <h3>Pénznem</h3>
+                    <p>Új-Zélandi dollár</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Részletek</h3>
+                    <p>A Cook-szigetek a Csendes-óceán déli részén, Amerikai Szamoa és Francia Polinézia között helyezkednek el, 
+                        a szigetcsoport 13 lakott és 2 lakatlan szigetből áll. Nevét a felfedezőjéről, James Cookról kapta, aki 
+                        1773-ban partra szállt. 1888-ban brit védnökség alá került, 1901-ben a britek annektálták, és átengedték Új-Zéland fennhatósága alá. 
+                        1965-ben belső önkormányzatot kapott. 
+                        1974 óta Új-Zéland szabadon társult állama, a kül- és hadügyeket Új-Zéland intézi, egyébként önálló kormányzata van.</p>
+                </div>
+            </div>
+            <button onclick="hideDiv('cook');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <div class="hidden" id="niue" style="display: none;">
+            <h1>NIUE</h1>
+            <div class="hidden-row" >
+                <div class="dummy-col">
+                    
+                </div>
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Alofi</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 1 600 fő</p>
+                    <h3>Terület</h3>
+                    <p>260 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Alkotmányos monarchia</p>
+                    <h3>Pénznem</h3>
+                    <p>Új-Zélandi dollár</p>
+                </div>               
+                <div class="dummy-col">
+                    
+                </div>
+            </div>
+            <button onclick="hideDiv('niue');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        
+
+        <!--HIDDEN DIV SECTION END-->
+
+        <div class="row">
+            <div class="col" id="detailed">
+                <h3 onclick="showDiv('szamoa'); return false;">Szamoa</h3>
+                <img src="Oceania/Flag_of_Samoa.jpg">
+            </div>
+            <div class="col" id="undetailed">
+                <h3 onclick="showDiv('tonga'); return false;">Tonga</h3>
+                <img src="Oceania/Flag_of_Tonga.jpg">
+            </div>
+            <div class="col" id="undetailed">
+                <h3 onclick="showDiv('tuvalu'); return false;">Tuvalu</h3>
+                <img src="Oceania/Flag_of_Tuvalu.jpg">
+            </div>
+        </div>  
+        
+        <!--HIDDEN DIV SECTION START-->
+
+        <div class="hidden" id="szamoa" style="display: none;">
+            <h1>SZAMOA</h1>
+            <div class="hidden-row" >
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Apia</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 200 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>2 842 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Parlamentarizmus</p>
+                    <h3>Pénznem</h3>
+                    <p>Tala</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Részletek</h3>
+                    <p>Szamoa, hivatalosan Szamoai Független Állam két nagy szigetet, Upolut és Savai'i-t, valamint 8 kisebb szigetet foglal magába a 
+                        Csendes-óceán délnyugati részén, az egyenlítőtől 1 500 kilométerre délre. Az ország legmagasabb pontja a Mauga Silisili, 
+                        a két főszigetet az Apolima-szoros választja el egymástól. A területét tekintve körülbelül Vas megye méretű országban 
+                        196 000-en laknak, népsűrűsége alig kétharmada a magyarországi adatnak. Keletről Amerikai Szamoával, délről Tongával, nyugatról Wallis és Futunával, 
+                        északról pedig Tokelauval osztozik közös tengeri határon.</p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Részletek</h3>
+                    <p>Az ország neve szamoai eredetű, jelentése a törzset jelentő Sā kifejezésből és egy helyi királyi dinasztia, 
+                        a Moa szó összetételéből származik. Az őslakos szamoaiak által benépesített Szamoa-szigeteket 1722-ben fedezte 
+                        fel a holland Jakob Roggeveen, az európai hatalmak 1899-ben gyarmatosították az országot. A háromhatalmi 
+                        egyezmény értelmében a szigetcsoport nyugati részén, a jelenlegi állam területén a németek hozták létre 
+                        gyarmatukat Német Szamoa néven, míg a keleti szigetek Amerikai Szamoaként az USA gyámsága alá kerültek. 
+                        Németország első világháborús veresége után az ország Új-Zéland fennhatósága alá került Nyugat-Szamoai Gyámsági Terület néven. 
+                        Szamoa 1962-ben nyerte el függetlenségét. Az angol és a szamoai egyaránt hivatalos nyelv. 
+                        Az ország jelenlegi miniszterelnöke Fiamē Naomi Mata'afa.</p>
+                </div>
+            </div>
+            <button onclick="hideDiv('szamoa');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <div class="hidden" id="tonga" style="display: none;">
+            <h1>TONGA</h1>
+            <div class="hidden-row" >
+                <div class="dummy-col">
+                    
+                </div>
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Nuku'alofa</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 100 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>750 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Monarchia</p>
+                    <h3>Pénznem</h3>
+                    <p>Tongan Pa'anga</p>
+                </div>    
+                <div class="dummy-col">
+                    
+                </div>
+            </div>
+            <button onclick="hideDiv('tonga');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <div class="hidden" id="tuvalu" style="display: none;">
+            <h1>TUVALU</h1>
+            <div class="hidden-row" >
+                <div class="dummy-col">
+                    
+                </div>
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Funafuti</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 11 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>26 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Alkotmányos monarchia</p>
+                    <h3>Pénznem</h3>
+                    <p>Ausztrál dollár</p>
+                </div>             
+                <div class="dummy-col">
+                    
+                </div>
+            </div>
+            <button onclick="hideDiv('tuvalu');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <!--HIDDEN DIV SECTION END-->
+
+    </section>
+    <section class="footer">
+        <div class="footer-container">
+            <div>
+                <h1>Világjáró</h1>
+                <p>© 2021 Világjáró</p>
+            </div>
+            <div>
+                <h1>Kapcsolat</h1>
+                <p></p>
+                <p>E-mail:</p>
+            </div>
+        </div>
+    </section>
+    <script>
+        function hideDiv(id){
+            document.getElementById(id).style.display = 'none';
+        }
+        function showDiv(id){
+            document.getElementById(id).style.visibility = 'none';
+            document.getElementById(id).style.display = '';
+        }
+    </script> 
+</body>
+</html>

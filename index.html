@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Világjáró</title>
+    <link rel="stylesheet" href="index-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/df65ae6f97.js"></script>
+    <script type="text/javascript" src="menu.js"></script>  
+</head>
+<body>  
+    <section class="header"> 
+        <nav>
+            <a class="title">VILÁGJÁRÓ</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">KEZDŐLAP</a></li>
+                    <div class="dropdown">
+                        <li><a href="continents.html">KONTINENSEK</a></li>
+                        <div class="dropdown-content">
+                            <a href="africa.html">Afrika</a>
+                            <a href="europa.html">Európa</a>
+                            <a href="asia.html">Ázsia</a>
+                            <a href="north-america.html">Észak-Amerika</a>
+                            <a href="south-america.html">Dél-Amerika</a>
+                            <a href="oceania.html">Óceánia</a>
+                        </div>
+                    </div>
+                    <li><a href="">JÁTÉKOK</a></li>
+                    <li><a href="">KAPCSOLAT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <section class="content">  
+        <div class="video-container">
+        <video autoplay muted loop id="backgroundVideo">
+            <source src="Videos/backgroundvideo.mp4" type="video/mp4">
+        </video>
+        </div>        
+        <div class="videoDiscription">
+            <h1>Üdvözöljük a Világjárón!</h1>
+            <h2>Tudj meg minél többet a világ országairól és</h2>
+            <h2>tanulj játékosan</h2>
+            <div class="button-container">
+                <button id="videoBtn" onclick="myFunction()">Videó megállítása</button>
+                <a href="continents.html" id="moreBtn">Tudjon meg többet!</a>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-container">
+            <div>
+                <h1>Világjáró</h1>
+                <p>© 2021 Világjáró</p>
+            </div>
+            <div>
+                <h1>Kapcsolat</h1>
+                <p></p>
+                <p>E-mail:</p>
+            </div>
+        </div>
+    </section>
+    <!-- JS a videó elindítására és megállítására -->
+    <script>
+        // Get the video
+        var video = document.getElementById("backgroundVideo");
+        
+        // Get the button
+        var btn = document.getElementById("videoBtn");
+        
+        // Pause and play the video, and change the button text
+        function myFunction() {
+          if (video.paused) {
+            video.play();
+            btn.innerHTML = "Videó megállítása";
+          } else {
+            video.pause();
+            btn.innerHTML = "Videó lejátszása";
+          }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+}
+.title{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+#backgroundVideo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background: url(Images/stars.jpg);
+}
+.video-container{
+    position: relative;
+    width: 100%;
+    height: 0;
+    opacity: 1;
+}
+.videoDiscription {
+    position: fixed;
+    top: 20%;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    
+}
+.videoDiscription h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.videoDiscription h2{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.videoDiscription:hover{
+    color: royalblue;
+    transition: 2s;
+}
+#videoBtn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+#videoBtn:hover {
+    background: royalblue;
+    transition: 1s;
+}
+#moreBtn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+#moreBtn:hover{
+    border: 1px solid white;
+    background: royalblue;
+    transition: 1s;
+}
+nav{
+    display:flex;
+    background-image: url(Images/stars.jpg);
+    padding: 2% 4%;
+    border-radius: 10px;
+    border: 5px solid white;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+nav .fa{
+    display: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+}
+.dropdown-content a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.dropdown-content a:hover::after{
+    width: 100%;
+}
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.footer{
+    width: 100%;
+    text-align: left;
+    padding: 30px 0;
+    background-image: url(images/stars.jpg);
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 100px;
+}
+.footer h1, p{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+} 
+  
+@media(max-width: 900px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background-image: url(Images/stars.jpg);
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: right;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa{
+        display: block;
+        color: white;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+        right: 100px;
+    }
+
+    #backgroundVideo{
+        top: 82px;
+        size: 50%;
+        position: fixed;
+    }
+}
