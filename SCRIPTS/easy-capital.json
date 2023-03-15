@@ -1,0 +1,22 @@
+[
+    {"name": "Dél-Afrikai Köztársaság", "capital": "Fokváros"},
+    {"name": "Kína", "capital": "Peking"},
+    {"name": "Japán", "capital": "Tokió"},
+    {"name": "Brazília", "capital": "Brazíliaváros"},
+    {"name": "Amerikai Egyesült Államok", "capital": "Washington, D.C."},
+    {"name": "Belgium", "capital": "Brüsszel"},
+    {"name": "Ausztria", "capital": "Bécs"},
+    {"name": "Horvátország", "capital": "Zágráb"},
+    {"name": "Németország", "capital": "Berlin"},
+    {"name": "Görögország", "capital": "Athén"},
+    {"name": "Magyarország", "capital": "Budapest"},
+    {"name": "Olaszország", "capital": "Róma"},
+    {"name": "Hollandia", "capital": "Amszterdam"},
+    {"name": "Románia", "capital": "Bukarest"},
+    {"name": "Oroszország", "capital": "Moszkva"},
+    {"name": "Szlovákia", "capital": "Pozsony"},
+    {"name": "Spanyolország", "capital": "Madrid"},
+    {"name": "Ukrajna", "capital": "Kijev"},
+    {"name": "Egyesült Királyság", "capital": "London"},
+    {"name": "Ausztrália", "capital": "Canberra"}
+]

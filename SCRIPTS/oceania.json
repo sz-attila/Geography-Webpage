@@ -1,0 +1,20 @@
+[
+    {"name": "Ausztrália", "image": "Oceania/Flag_of_Australia.jpg", "capital": "Canberra"},
+    {"name": "Karácsony-sziget", "image": "Oceania/Flag_of_Christmas_Island.jpg", "capital": "Flying Fish Cove"},
+    {"name": "Norfolk-sziget", "image": "Oceania/Flag_of_Norfolk_Island.jpg", "capital": "Kingston"},
+    {"name": "Fidzsi-szigetek", "image": "Oceania/Flag_of_Fiji.jpg", "capital": "Suva"},
+    {"name": "Pápua Új-Guinea", "image": "Oceania/Flag_of_Papua_New_Guinea.jpg", "capital": "Port Moresby"},
+    {"name": "Salamon-szigetek", "image": "Oceania/Flag_of_the_Solomon_Islands.jpg", "capital": "Honiara"},
+    {"name": "Vanuatu", "image": "Oceania/1280px-Flag_of_Vanuatu.jpg", "capital": "Port Vila"},
+    {"name": "Kiribati", "image": "Oceania/Flag_of_Kiribati.jpg", "capital": "South Tarawa"},
+    {"name": "Marshall-sigetek", "image": "Oceania/Flag_of_the_Marshall_Islands.jpg", "capital": "Majuro"},
+    {"name": "Mikronéziai Szövetségi Államok", "image": "Oceania/1920px-Flag_of_the_Federated_States_of_Micronesia.jpg", "capital": "Palikir"},
+    {"name": "Nauru", "image": "Oceania/Flag_of_Nauru.jpg", "capital": "Yaren"},
+    {"name": "Palau", "image": "Oceania/1280px-Flag_of_Palau.jpg", "capital": "Ngerulmud"},
+    {"name": "Új-Zéland", "image": "Oceania/Flag_of_New_Zealand.jpg", "capital": "Wellington"},
+    {"name": "Cook-szigetek", "image": "Oceania/1920px-Flag_of_the_Cook_Islands.jpg", "capital": "Avarua"},
+    {"name": "Niue", "image": "Oceania/1920px-Flag_of_Niue.jpg", "capital": "Alofi"},
+    {"name": "Szamoa", "image": "Oceania/Flag_of_Samoa.jpg", "capital": "Apia"},
+    {"name": "Tonga", "image": "Oceania/Flag_of_Tonga.jpg", "capital": "Nuku'alofa"},
+    {"name": "Tuvalu", "image": "Oceania/Flag_of_Tuvalu.jpg", "capital": "Funafuti"}
+]

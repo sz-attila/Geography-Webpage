@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Világjáró</title>
+    <link rel="stylesheet" href="CSS/games-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/df65ae6f97.js"></script>
+    <script type="text/javascript" src="SCRIPTS/menu.js"></script>  
+</head>
+<body>  
+    <section class="header"> 
+        <nav>
+            <a class="title">VILÁGJÁRÓ</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">KEZDŐLAP</a></li>
+                    <div class="dropdown">
+                        <li><a href="continents.html">KONTINENSEK</a></li>
+                        <div class="dropdown-content">
+                            <a href="afrika.html">Afrika</a>
+                            <a href="europa.html">Európa</a>
+                            <a href="azsia.html">Ázsia</a>
+                            <a href="eszak-amerika.html">Észak-Amerika</a>
+                            <a href="del-amerika.html">Dél-Amerika</a>
+                            <a href="oceania.html">Óceánia</a>
+                        </div>
+                    </div>
+                    <li><a href="games.html">JÁTÉKOK</a></li>
+                    <li><a href="">KAPCSOLAT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="inst-container">
+            <h1>JÁTÉKOK</h1>
+        </div>
+    </section>
+    <section class="game-container">
+        <div class="game">
+            <h1>ZÁSZLÓ KITALÁLÓ</h1>
+            <img src="Afrika/Flag_of_South_Africa.jpg">
+            <p class="text">A zászlók vegyesen fognak megjelenni az összes kontinensről. Minden játék 10 kitalálandó zászlóból áll.
+                Válassz nehézségi fokot!
+            </p>
+            <div class="row">
+                <div class="col">
+                    <p class="easy">KEZDŐ NEHÉZSÉG</p>
+                    <p class="text">
+                        A legismertebb országok zászlóit tartalmazza a játék. 
+                        Minden zászlóhoz 4 válasz opcióból kell eltalálni a helyes választ.
+                        A kezdő módban nincs időkorlát a válaszadásra.
+                    </p>
+                    <button id="easyBtn" onclick="openBeginnerFlagGame()">Kezdő</button>
+                </div>
+                <div class="col">
+                    <p class="hard">HALADÓ NEHÉZSÉG</p>
+                    <p class="text">
+                        A világ bármely országának zászlóját tartalmazhatja a játék.
+                        Válaszaidat neked kell beírnod az üres mezőbe. Minden zászló megválaszolására 20 másodperc áll rendelkezésre.
+                    </p>
+                    <button id="hardBtn" onclick="openExpertFlagGame()">Haladó</button>
+                </div>
+            </div>
+        </div>
+        <div class="game">
+            <h1>FŐVÁROS KITALÁLÓ</h1>
+            <img src="Afrika/Flag_of_South_Africa.jpg">
+            <p class="text">Az országok vegyesen fognak megjelenni az összes kontinensről. Minden játék 10 kitalálandó fővárosból áll.
+                Válassz nehézségi fokot!
+            </p>
+            <div class="row">
+                <div class="col">
+                    <p class="easy">KEZDŐ NEHÉZSÉG</p>
+                    <p class="text">
+                        A legismertebb országokat tartalmazza a játék. 
+                        Minden országhoz 4 válasz opcióból kell eltalálni a helyes fővárost.
+                        A kezdő módban nincs időkorlát a fővárosok megválaszolására.
+                    </p>
+                    <button id="easyBtn" onclick="openBeginnerCapitalGame()">Kezdő</button>
+                </div>
+                <div class="col">
+                    <p class="hard">HALADÓ NEHÉZSÉG</p>
+                    <p class="text">
+                        A világ bármely országát tartalmazhatja a játék.
+                        Válaszaidat neked kell beírnod az üres mezőbe. Minden főváros megválaszolására 20 másodperc áll rendelkezésre.
+                    </p>
+                    <button id="hardBtn" onclick="openExpertCapitalGame()">Haladó</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer-container">
+            <div>
+                <h1>Világjáró</h1>
+                <p>© 2021 Világjáró</p>
+            </div>
+            <div>
+                <h1>Kapcsolat</h1>
+                <p></p>
+                <p>E-mail:</p>
+            </div>
+        </div>
+    </section>
+    <script>
+        function openExpertFlagGame() {
+            window.open("hard-flag-game.html", "_self");
+        }
+        function openBeginnerFlagGame() {
+            window.open("easy-flag-game.html", "_self");
+        }
+        function openExpertCapitalGame() {
+            window.open("hard-capital-game.html", "_self");
+        }
+        function openBeginnerCapitalGame() {
+            window.open("easy-capital-game.html", "_self");
+        }
+    </script>
+</body>
+</html>

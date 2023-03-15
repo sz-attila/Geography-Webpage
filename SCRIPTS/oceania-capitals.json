@@ -1,0 +1,20 @@
+[
+    {"name": "Ausztrália", "capital": "Canberra"},
+    {"name": "Karácsony-sziget", "capital": "Flying Fish Cove"},
+    {"name": "Norfolk-sziget", "capital": "Kingston"},
+    {"name": "Fidzsi-szigetek", "capital": "Suva"},
+    {"name": "Pápua Új-Guinea", "capital": "Port Moresby"},
+    {"name": "Salamon-szigetek", "capital": "Honiara"},
+    {"name": "Vanuatu", "capital": "Port Vila"},
+    {"name": "Kiribati", "capital": "Tarawa"},
+    {"name": "Marshall-szigetek", "capital": "Majuro"},
+    {"name": "Mikronéziai Szövetségi Államok", "capital": "Palikir"},
+    {"name": "Nauru", "capital": "Yaren"},
+    {"name": "Palau", "capital": "Ngerulmud"},
+    {"name": "Új-Zéland", "capital": "Wellington"},
+    {"name": "Cook-szigetek", "capital": "Avarua"},
+    {"name": "Niue", "capital": "Alofi"},
+    {"name": "Szamoa", "capital": "Apia"},
+    {"name": "Tonga", "capital": "Nuku'alofa"},
+    {"name": "Tuvalu", "capital": "Funafuti"}
+]

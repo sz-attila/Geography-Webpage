@@ -1,0 +1,22 @@
+[
+  {"name": "Amerikai Egyesült Államok", "image": "E-Amerika/1920px-Flag_of_the_United_States.jpg"},
+  {"name": "Kanada","image": "E-Amerika/Flag_of_Canada.jpg"},
+  {"name": "Mexikó","image": "E-Amerika/Flag_of_Mexico.jpg"},
+  {"name": "Egyesült Királyság","image": "Europa/Flag_of_the_United_Kingdom_(3-5).jpg"},
+  {"name": "Spanyolország","image": "Europa/1280px-Flag_of_Spain.jpg"},
+  {"name": "Franciaország","image": "Europa/Flag_of_France.jpg"},
+  {"name": "Lengyelország","image": "Europa/Flag_of_Poland.jpg"},
+  {"name": "Kína","image": "Azsia/Flag_of_the_People's_Republic_of_China.jpg"},
+  {"name": "Japán","image": "Azsia/Flag_of_Japan.jpg"},
+  {"name": "Brazília","image": "D-Amerika/Flag_of_Brazil.jpg"},
+  {"name": "Portugália","image": "Europa/Flag_of_Portugal.jpg"},
+  {"name": "Oroszország","image": "Europa/Flag_of_Russia.jpg"},
+  {"name": "Magyarország","image": "Europa/Flag_of_Hungary.jpg"},
+  {"name": "Ausztrália","image": "Oceania/Flag_of_Australia.jpg"},
+  {"name": "Dél-Korea","image": "Azsia/Flag_of_South_Korea.jpg"},
+  {"name": "Argentína","image": "D-Amerika/Flag_of_Argentina.jpg"},
+  {"name": "Olaszország","image": "Europa/Flag_of_Italy.jpg"},
+  {"name": "Ausztria","image": "Europa/Flag_of_Austria.jpg"},
+  {"name": "Románia","image": "Europa/1280px-Flag_of_Romania.jpg"},
+  {"name": "Dél-Afrikai Köztársaság","image": "Afrika/Flag_of_South_Africa.jpg"}
+]

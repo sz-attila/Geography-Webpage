@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Világjáró</title>
-    <link rel="stylesheet" href="CSS/continents-style.css">
+    <link rel="stylesheet" href="CSS/hard-capital-style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,49 +37,19 @@
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="inst-container">
-            <h1>Válaszd ki a kívánt kontinenst és kezd el a felfedezést!</h1>
+            <h1>FŐVÁROS KITALÁLÓ</h1>
+            <h3>HALADÓ FOKOZAT</h3>
         </div>
-    </section>
-    <section class="continent-container">
-        <div class="row">
-            <div class="col">
-                <img src="Images/africa.png">
-                <div class="layer" id="af">
-                    <a href="afrika.html"><h3>AFRIKA</h3></a>
-                </div>
-            </div>
-            <div class="col">
-                <img src="Images/europe.jpg">
-                <div class="layer" id="eu">
-                    <a href="europa.html"><h3>EURÓPA</h3></a>
-                </div>
-            </div>
-            <div class="col">
-                <img src="Images/asia.png">
-                <div class="layer" id="as">
-                    <a href="azsia.html"><h3>ÁZSIA</h3></a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <img src="Images/north-america.png">
-                <div class="layer" id="ea">
-                    <a href="eszak-amerika.html"><h3>ÉSZAK-AMERIKA</h3></a>
-                </div>
-            </div>
-            <div class="col">
-                <img src="Images/south-america.png">
-                <div class="layer" id="da">
-                    <a href="del-amerika.html"><h3>DÉL-AMERIKA</h3></a>
-                </div>
-            </div>
-            <div class="col">
-                <img src="Images/oceania.png">
-                <div class="layer" id="oc">
-                    <a href="oceania.html"><h3>ÓCEÁNIA</h3></a>
-                </div>
-            </div>
+        <div class="game">
+            <p id="country"></p>
+            <input type="text" id="answer" placeholder="Írd be a főváros nevét!">
+            <button id="submit">Ellenőrzés</button>
+            <p id="result"></p>
+            <p id="score"></p>
+            <p id="timer"></p>
+            <button id="start">Játék indítása</button>
+            <button id="restart">Újraindítás</button>
+            <script src="SCRIPTS/hard-capital-game.js"></script>
         </div>
     </section>
     <section class="footer">

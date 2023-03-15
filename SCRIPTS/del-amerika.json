@@ -1,0 +1,14 @@
+[
+    {"name": "Argentína", "image": "D-Amerika/Flag_of_Argentina.jpg", "capital": "Buenos Aires"},
+    {"name": "Bolívia", "image": "D-Amerika/Flag_of_Bolivia_(state).jpg", "capital": "La Paz"},
+    {"name": "Brazília", "image": "D-Amerika/Flag_of_Brazil.jpg", "capital": "Brazíliaváros"},
+    {"name": "Chile", "image": "D-Amerika/Flag_of_Chile.jpg", "capital": "Santiago"},
+    {"name": "Kolumbia", "image": "D-Amerika/Flag_of_Colombia.jpg", "capital": "Bogotá"},
+    {"name": "Ecuador", "image": "D-Amerika/Flag_of_Ecuador.jpg", "capital": "Quito"},
+    {"name": "Guyana", "image": "D-Amerika/Flag_of_Guyana.jpg", "capital": "Georgetown"},
+    {"name": "Paraguay", "image": "D-Amerika/Flag_of_Paraguay.jpg", "capital": "Asunción"},
+    {"name": "Peru", "image": "D-Amerika/1280px-Flag_of_Peru_(state).jpg", "capital": "Lima"},
+    {"name": "Surinam", "image": "D-Amerika/Flag_of_Suriname.jpg", "capital": "Paramaribo"},
+    {"name": "Uruguay", "image": "D-Amerika/Flag_of_Uruguay.jpg", "capital": "Montevideo"},
+    {"name": "Venezuela", "image": "D-Amerika/Flag_of_Venezuela_(state).jpg", "capital": "Caracas"}
+    ]
