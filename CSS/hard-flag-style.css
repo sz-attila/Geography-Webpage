@@ -333,4 +333,10 @@ nav .fa{
         padding-top: 20px;
         margin-bottom: 20px;
     }
+    .header{
+        height: 60vh;
+    }
+    .game{
+        width: 80%;
+    }
 }

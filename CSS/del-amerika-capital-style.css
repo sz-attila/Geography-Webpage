@@ -321,6 +321,9 @@ button:hover {
         padding: 30px;
 
     }
+    .header{
+        height: 60vh;
+    }
     .dropdown:hover .dropdown-content {
         display: block;
         right: 100px;
@@ -334,5 +337,11 @@ button:hover {
         flex-basis: 100%;
         padding-top: 20px;
         margin-bottom: 20px;
+    }
+    .game{
+        width: 80%;
+    }
+    #country{
+        max-width: 80%;
     }
 }

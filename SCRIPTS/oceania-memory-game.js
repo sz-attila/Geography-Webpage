@@ -61,6 +61,7 @@ function checkAnswer() {
             const capitalCity = document.createElement('p');
             const countryImage = document.createElement('img');
             countryName.textContent = country.name.trim().toUpperCase();
+            countryName.style.fontSize = '18px';
             capitalCity.textContent = `Főváros: ${country.capital}`;
             countryImage.src = country.image;
             guessedListItem.appendChild(countryName);

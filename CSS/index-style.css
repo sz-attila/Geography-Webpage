@@ -120,10 +120,7 @@ nav .fa{
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: white;
 }
-.inst-container h1:hover{
-    color: whitesmoke;
-    transition: 1s;
-}
+
 .inst-container h2{
     font-size: 40px;
     color: black;
@@ -133,10 +130,7 @@ nav .fa{
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: white;
 }
-.inst-container h2:hover{
-    color: snow;
-    transition: 1s;
-}
+
 #moreBtn{
     display: inline-block;
     text-decoration: none;
@@ -182,20 +176,10 @@ nav .fa{
     -webkit-text-stroke: 2px;
     -webkit-text-stroke-color: white;
 }
-.col h1:hover{
-    color: snow;
-    transition: 1s;
-}
 .col h3{
-    font-size: 20px;
-    color: black;
+    font-size: 25px;
+    color: white;
     text-align: center;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: white;
-}
-.col h3:hover{
-    color: snow;
-    transition: 1s;
 }
 .img-col{
     flex-basis: 32%;
@@ -207,7 +191,21 @@ nav .fa{
 }
 .img-col img{
     width: 80%;
+    margin: auto;
     border: 1px solid white;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.logo-col{
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.logo-col img{
+    width: 30%;
+    margin: auto;
     object-fit: cover;
     transition: 0.5s;
 }
@@ -236,8 +234,6 @@ nav .fa{
     background-image: url(../Images/stars.jpg);
     background-position: center;
     background-size: cover;
-    position: absolute;
-    bottom: -75vh;
 }
 .footer-container{
     display: flex;
@@ -250,13 +246,9 @@ nav .fa{
     color: white;
     font-size: 14px;
     font-weight: bold;
-    
 }
   
 @media(max-width: 900px){
-    .text-box h1{
-        font-size: 20px;
-    }
     .nav-links ul li{
         display: block;
     }
@@ -282,15 +274,23 @@ nav .fa{
         padding: 30px;
 
     }
+    .header{
+        height: 100vh;
+    }
+    .inst-container{
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+    }
+    .inst-container h1{
+        font-size: 50px;
+    }
+    .text-box h1{
+        font-size: 20px;
+    }
     .dropdown:hover .dropdown-content {
         display: block;
         right: 100px;
-    }
-
-    #backgroundVideo{
-        top: 82px;
-        size: 50%;
-        position: fixed;
     }
     .row{
         display: flex;

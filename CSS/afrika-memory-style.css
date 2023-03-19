@@ -290,6 +290,9 @@ nav .fa{
         display: block;
         right: 100px;
     }
+    .header{
+        height: 50vh;
+    }
     .row{
         display: flex;
         flex-wrap: wrap;
@@ -299,5 +302,12 @@ nav .fa{
         flex-basis: 100%;
         padding-top: 20px;
         margin-bottom: 20px;
+    }
+    #answer{
+        max-width: 60%;
+        font-size: 17px;
+    }
+    .game{
+        width: 80%;
     }
 }

@@ -1,0 +1,14 @@
+[
+    {"name": "Argentína", "capital": "Buenos Aires"},
+    {"name": "Bolívia", "capital": "La Paz"},
+    {"name": "Brazília", "capital": "Brazíliaváros"},
+    {"name": "Chile", "capital": "Santiago"},
+    {"name": "Kolumbia", "capital": "Bogotá"},
+    {"name": "Ecuador", "capital": "Quito"},
+    {"name": "Guyana", "capital": "Georgetown"},
+    {"name": "Paraguay", "capital": "Asunción"},
+    {"name": "Peru", "capital": "Lima"},
+    {"name": "Surinam", "capital": "Paramaribo"},
+    {"name": "Uruguay", "capital": "Montevideo"},
+    {"name": "Venezuela", "capital": "Caracas"}
+]

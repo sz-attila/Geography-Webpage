@@ -300,4 +300,11 @@ nav .fa{
         padding-top: 20px;
         margin-bottom: 20px;
     }
+    #answer{
+        max-width: 60%;
+        font-size: 17px;
+    }
+    .game{
+        width: 80%;
+    }
 }

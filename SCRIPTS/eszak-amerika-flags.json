@@ -1,0 +1,27 @@
+[
+    {"name": "Amerikai Egyesült Államok", "image": "E-Amerika/1920px-Flag_of_the_United_States.jpg"},
+    {"name": "Kanada", "image": "E-Amerika/Flag_of_Canada.jpg"},
+    {"name": "Mexikó", "image": "E-Amerika/Flag_of_Mexico.jpg"},
+    {"name": "Antigua és Barbuda", "image": "E-Amerika/Flag_of_Antigua_and_Barbuda.jpg"},
+    {"name": "Bahama-szigetek", "image": "E-Amerika/Flag_of_the_Bahamas.jpg"},
+    {"name": "Barbados", "image": "E-Amerika/Flag_of_Barbados.jpg"},
+    {"name": "Dominikai Közösség", "image": "E-Amerika/Flag_of_Dominica.jpg"},
+    {"name": "Dominikai Köztársaság", "image": "E-Amerika/Flag_of_the_Dominican_Republic.jpg"},
+    {"name": "Grenada", "image": "E-Amerika/Flag_of_Grenada.jpg"},
+    {"name": "Haiti", "image": "E-Amerika/Flag_of_Haiti.jpg"},
+    {"name": "Jamaica", "image": "E-Amerika/Flag_of_Jamaica.jpg"},
+    {"name": "Kuba", "image": "E-Amerika/Flag_of_Cuba.jpg"},
+    {"name": "Puerto Rico", "image": "E-Amerika/Flag_of_Puerto_Rico.jpg"},
+    {"name": "Saint Kitts és Nevis", "image": "E-Amerika/Flag_of_Saint_Kitts_and_Nevis.jpg"},
+    {"name": "Saint Lucia", "image": "E-Amerika/Flag_of_Saint_Lucia.jpg"},
+    {"name": "Saint Vincent és a Grenadine-szigetek", "image": "E-Amerika/Flag_of_Saint_Vincent_and_the_Grenadines.jpg"},
+    {"name": "Trinidad és Tobago", "image": "E-Amerika/1280px-Flag_of_Trinidad_and_Tobago.jpg"},
+    {"name": "Belize", "image": "E-Amerika/Flag_of_Belize.jpg"},
+    {"name": "Costa Rica", "image": "E-Amerika/Flag_of_Costa_Rica.jpg"},
+    {"name": "Guatemala", "image": "E-Amerika/Flag_of_Guatemala.jpg"},
+    {"name": "Honduras", "image": "E-Amerika/Flag_of_Honduras.jpg"},
+    {"name": "Nicaragua", "image": "E-Amerika/Flag_of_Nicaragua.jpg"},
+    {"name": "Panama", "image": "E-Amerika/Flag_of_Panama.jpg"},
+    {"name": "Salvador", "image": "E-Amerika/Flag_of_El_Salvador.jpg"}
+
+]   

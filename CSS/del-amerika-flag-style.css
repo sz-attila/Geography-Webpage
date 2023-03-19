@@ -322,4 +322,13 @@ button:hover {
         padding-top: 20px;
         margin-bottom: 20px;
     }
+    .header{
+        height: 50vh;
+    }
+    .game{
+        width: 80%;
+    }
+    #country{
+        max-width: 80%;
+    }
 }
