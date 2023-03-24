@@ -376,7 +376,16 @@ button{
     .game{
         width: 80%;
     }
-    .img-container h1{
+    .quiz-container h1{
+        font-size: 40px;
+    }
+    .flags-container h1{
+        font-size: 40px;
+    }
+    .capital-container h1{
+        font-size: 40px;
+    }
+    .map-container h1{
         font-size: 40px;
     }
 }

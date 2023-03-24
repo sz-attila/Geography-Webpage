@@ -53,7 +53,7 @@ nav{
     content: '';
     width: 0%;
     height: 2px;
-    background: green;
+    background: red;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -125,7 +125,7 @@ nav .fa{
 }
 
 .inst-container h3{
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     font-weight: bold;
     text-align: center;
@@ -155,7 +155,7 @@ nav .fa{
     text-align: center;
     margin-top: 250px;
     margin-bottom: 20px;
-    background-color: white;
+    background-color: green;
     border-radius: 10px;
     border: 5px solid red;
     box-shadow: 0 0 20px rgba(0,0,0,0.3);
@@ -169,14 +169,14 @@ nav .fa{
     color: white;
     border: none;
     font-weight: bold;
-    background: red;
+    background: green;
     cursor: pointer;
     border-radius: 10px;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: red;
 }
 #start:hover{
-    background: green;
+    background: red;
     transition: 1s;
 }
 
@@ -188,6 +188,7 @@ nav .fa{
   
 #blindmap {
     display: flex;
+    height: auto;
     width: 80%;
     margin: auto;
     flex-wrap: wrap;
@@ -198,11 +199,11 @@ nav .fa{
 }
   
 #country-list {
+    margin: auto;
+    margin-bottom: 20px;  
     width: 80%;
-    height: 435px;
-    margin-left: 60px;
+    height: 370px;
     overflow-y: scroll;
-    background-color: white;
     border: 3px solid red;
     border-radius: 10px;
 }
@@ -225,19 +226,19 @@ nav .fa{
 }
   
 #country-list input {
-    width: 8%;
+    width: 10%;
     margin-left: 20px;
     padding: 5px;
     border-radius: 5px;
-    border: 2px solid green;
+    border: 2px solid red;
 }
   
 #submit {
     margin: auto;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: white;
-    color: green;
+    background-color: green;
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -246,19 +247,19 @@ nav .fa{
     border: 2px solid red;
     margin-bottom: 20px;
     -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: red;
 }
   
 #submit:hover {
-    background-color: green;
+    background-color: red;
     transition: 1;
 }
 #restart {
     margin: auto;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: white;
-    color: green;
+    background-color: green;
+    color: #fff;
     font-size: 25px;
     font-weight: bold;
     border: 2px solid red;
@@ -266,11 +267,11 @@ nav .fa{
     cursor: pointer;
     margin-bottom: 20px;
     -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: red;
 
 }
 #restart:hover{
-    background-color: green;
+    background-color: red;
     transition: 1;
 }
 #result {
@@ -278,14 +279,11 @@ nav .fa{
     margin-bottom: 20px;
     text-align: center;
     font-size: 24px;
-    background-color: red;
-    border-radius: 10px;
-    color: green;
+    color: white;
     -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: red;
 
 }
-
 .correct {
     background-color: green;
 }
@@ -301,7 +299,7 @@ nav .fa{
     width: 100%;
     text-align: left;
     padding: 30px 0;
-    background-color: red;
+    background-color: green;
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -326,13 +324,10 @@ nav .fa{
     .nav-links ul li{
         display: block;
     }
-    .nav-links ul li a{
-        color: white;
-    }
     .nav-links{
         position: absolute;
         display: none;
-        background-color: red;
+        background-color: green;
         height: 100%;
         width: 200px;
         top: 0;
