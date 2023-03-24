@@ -1,9 +1,3 @@
-let usedFlagIndices = [];
-let flags = [];
-let points = 0;
-let currentFlagIndex = 0;
-let flagsRemaining = 10;
-
 const flag = document.getElementById("flag");
 const answer = document.getElementById("answer");
 const submit = document.getElementById("submit");
@@ -12,6 +6,12 @@ const score = document.getElementById("score");
 const pointsSpan = score.appendChild(document.createElement("span"));
 const start = document.getElementById("start");
 const restart = document.getElementById("restart");
+
+let usedFlagIndices = [];
+let flags = [];
+let points = 0;
+let currentFlagIndex = 0;
+let flagsRemaining = 10;
 
 answer.style.display = "none";
 submit.style.display = "none";

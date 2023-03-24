@@ -281,7 +281,6 @@ button:hover {
     color: white;
     font-size: 14px;
     font-weight: bold;
-    
 }
 
 /*FOOTER SECTION - END*/
@@ -294,6 +293,7 @@ button:hover {
     }
     .nav-links{
         position: absolute;
+        display: none;
         background-color: sandybrown;
         height: 100%;
         width: 200px;

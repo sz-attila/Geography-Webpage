@@ -266,6 +266,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
+        display: none;
         background-color: green;
         height: 100%;
         width: 200px;

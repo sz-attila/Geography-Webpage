@@ -299,6 +299,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
+        display: none;
         background-color: lightcoral;
         height: 100%;
         width: 200px;
@@ -338,5 +339,9 @@ nav .fa{
     }
     .game{
         width: 80%;
+    }
+    #answer{
+        max-width: 60%;
+        font-size: 17px;
     }
 }

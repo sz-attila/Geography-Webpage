@@ -185,16 +185,11 @@ nav .fa{
 }
 .hidden h1{
     font-size: 60px;
-    color: white;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: sandybrown;
+    color: sandybrown;
     margin-top: 30px;
     margin-bottom: 10px;
 }
-.hidden h1:hover{
-    color: sandybrown;
-    transition: 1s;
-}
+
 
 .hidden h3{
     color: black;
@@ -223,9 +218,7 @@ nav .fa{
 }
 .hidden-col h3{
     font-size: 30px;
-    color: white;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: sandybrown;
+    color: sandybrown;
 }
 .hidden-col h3:hover{
     color: sandybrown;
@@ -235,13 +228,12 @@ nav .fa{
     font-size: 15px;
     color: black;
 }
-.hidden-col img{
-    margin-top: 10px;
-    position: absolute;
-    justify-content: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+#abra-col{
+    min-height: 500px;
+    background-image: url(../Images/abra1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .hide-div{
     display: none;
@@ -350,6 +342,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
+        display: none;
         background-color: sandybrown;
         height: 100%;
         width: 200px;

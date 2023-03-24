@@ -9,10 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/df65ae6f97.js"></script>
-    <script type="text/javascript" src="SCRIPTS/menu.js"></script>  
+    <script type="text/javascript" src="SCRIPTS/menu.js"></script> 
 </head>
 <body>
-    <section class="header"> 
+    <section class="header">
         <nav>
             <a class="title">VILÁGJÁRÓ</a>
             <div class="nav-links" id="navLinks">
@@ -81,8 +81,7 @@
                         törések darabolták fel, aminek eredményeként árkok, medencék, sasbércek és lépcsős vidékek alakultak ki. (D). A legmélyebb árkokat ma tavak töltik
                     </p>
                 </div>
-                <div class="hidden-col">
-                    <img src="Images/abra1.png" alt="">
+                <div class="hidden-col" id="abra-col">
                 </div>
             </div>
             <div class="hidden-row">
@@ -421,6 +420,10 @@
                 <h3>Marokkó</h3>
                 <img src="Afrika/Flag_of_Morocco.jpg">
             </div>
+            <div class="col" id="undetailed" onclick="showDiv('ny-szahara')">
+                <h3>Nyugat-Szahara</h3>
+                <img src="Afrika/Flag_of_the_Sahrawi_Arab_Democratic_Republic.jpg">
+            </div>
             <div class="col" id="undetailed" onclick="showDiv('szudan')">
                 <h3>Szudán</h3>
                 <img src="Afrika/Flag_of_Sudan.jpg">
@@ -429,6 +432,7 @@
                 <h3>Tunézia</h3>
                 <img src="Afrika/Flag_of_Tunisia.jpg">
             </div>
+            
         </div>
 
         <!--HIDDEN DIV SECTION-->
@@ -475,6 +479,27 @@
                 </div>
             </div>
             <button onclick="hideDiv('marokko');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <div class="hidden" id="ny-szahara" style="display: none;">
+            <h1>NYUGAT-SZAHARA</h1>
+            <div class="hidden-row" >
+                <div class="dummy-col"></div>
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>El-Ajún</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 582 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>266 000 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Köztársaság</p>
+                    <h3>Pénznem</h3>
+                    <p>Marokkói dirham</p>
+                </div>
+                <div class="dummy-col"></div>
+            </div>
+            <button onclick="hideDiv('ny-szahara');return false;" id="closeBtn">Bezár</button>
         </div>
 
         <div class="hidden" id="szudan" style="display: none;">
@@ -562,6 +587,10 @@
                 <h3>Csád</h3>
                 <img src="Afrika/1280px-Flag_of_Chad.jpg">
             </div>
+            <div class="col" id="undetailed" onclick="showDiv('d-szudan')">
+                <h3>Dél-Szudán</h3>
+                <img src="Afrika/Flag_of_South_Sudan.jpg">
+            </div>
             <div class="col" id="detailed" onclick="showDiv('egygui')">
                 <h3>Egyenlítői-Guinea</h3>
                 <img src="Afrika/Flag_of_Tunisia.jpg">
@@ -570,10 +599,7 @@
                 <h3>Gabon</h3>
                 <img src="Afrika/Flag_of_Gabon.jpg">
             </div>
-            <div class="col" id="detailed" onclick="showDiv('kamerun')">
-                <h3>Kamerun</h3>
-                <img src="Afrika/Flag_of_Cameroon.jpg">
-            </div>
+            
         </div>
 
         <!--HIDDEN DIV SECTION-->
@@ -661,6 +687,28 @@
             </div>
             <button onclick="hideDiv('csad');return false;" id="closeBtn">Bezár</button>
         </div>
+        
+        <div class="hidden" id="d-szudan" style="display: none;">
+            <h1>DÉL-SZUDÁN</h1>
+            <div class="hidden-row" >
+                <div class="dummy-col"></div>
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Juba</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 10 700 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>644 329 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Köztársaság</p>
+                    <h3>Pénznem</h3>
+                    <p>Szudáni font</p>
+                </div>
+                <div class="dummy-col"></div>
+            </div>
+            <button onclick="hideDiv('d-szudan');return false;" id="closeBtn">Bezár</button>
+        </div>
+
 
         <div class="hidden" id="egygui" style="display: none;">
             <h1>EGYENLÍTŐI-GUINEA</h1>
@@ -745,6 +793,34 @@
             <button onclick="hideDiv('gabon');return false;" id="closeBtn">Bezár</button>
         </div>
 
+
+        <!--HIDDEN DIV SECTION END-->
+
+        <div class="row">
+            <div class="col" id="detailed" onclick="showDiv('kamerun')">
+                <h3>Kamerun</h3>
+                <img src="Afrika/Flag_of_Cameroon.jpg">
+            </div>
+            <div class="col" id="detailed" onclick="showDiv('kongo-de')">
+                <h3>Kongói Demokratikus Köztársaság</h3>
+                <img src="Afrika/Flag_of_the_Democratic_Republic_of_the_Congo.jpg">
+            </div>
+            <div class="col" id="detailed" onclick="showDiv('kongo-ko')">
+                <h3>Kongói Köztársaság</h3>
+                <img src="Afrika/Flag_of_the_Republic_of_the_Congo.jpg">
+            </div>
+            <div class="col" id="detailed" onclick="showDiv('kozepafr')">
+                <h3>Közép-afrikai Köztársaság</h3>
+                <img src="Afrika/Flag_of_the_Central_African_Republic.jpg">
+            </div> 
+            <div class="col" id="undetailed" onclick="showDiv('saotomepri')">
+                <h3>São Tomé és Príncipe</h3>
+                <img src="Afrika/Flag_of_São_Tomé_and_Príncipe.jpg">
+            </div>
+        </div>
+
+        <!--HIDDEN DIV SECTION-->
+
         <div class="hidden" id="kamerun" style="display: none;">
             <h1>KAMERUN</h1>
             <div class="hidden-row" >
@@ -784,29 +860,6 @@
             </div>
             <button onclick="hideDiv('kamerun');return false;" id="closeBtn">Bezár</button>
         </div>
-
-        <!--HIDDEN DIV SECTION END-->
-
-        <div class="row">
-            <div class="col" id="detailed" onclick="showDiv('kongo-de')">
-                <h3>Kongói Demokratikus Köztársaság</h3>
-                <img src="Afrika/Flag_of_the_Democratic_Republic_of_the_Congo.jpg">
-            </div>
-            <div class="col" id="detailed" onclick="showDiv('kongo-ko')">
-                <h3>Kongói Köztársaság</h3>
-                <img src="Afrika/Flag_of_the_Republic_of_the_Congo.jpg">
-            </div>
-            <div class="col" id="detailed" onclick="showDiv('kozepafr')">
-                <h3>Közép-afrikai Köztársaság</h3>
-                <img src="Afrika/Flag_of_the_Central_African_Republic.jpg">
-            </div> 
-            <div class="col" id="undetailed" onclick="showDiv('saotomepri')">
-                <h3>São Tomé és Príncipe</h3>
-                <img src="Afrika/Flag_of_São_Tomé_and_Príncipe.jpg">
-            </div>
-        </div>
-
-        <!--HIDDEN DIV SECTION-->
 
         <div class="hidden" id="kongo-de" style="display: none;">
             <h1>KONGÓI DEMOKRATIKUS KÖZTÁRSASÁG</h1>

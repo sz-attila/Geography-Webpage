@@ -372,6 +372,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
+        display: none;
         background-color: sandybrown;
         height: 100%;
         width: 200px;
@@ -391,6 +392,9 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
 
+    }
+    .inst-container h1{
+        font-size: 32px;
     }
     .dropdown:hover .dropdown-content {
         display: block;

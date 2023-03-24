@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Világjáró</title>
+    <link rel="stylesheet" href="CSS/del-amerika-map-style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/df65ae6f97.js"></script>
+    <script type="text/javascript" src="SCRIPTS/menu.js"></script>  
+</head>
+<body>
+    <section class="header"> 
+        <nav>
+            <a class="title">VILÁGJÁRÓ</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">KEZDŐLAP</a></li>
+                    <div class="dropdown">
+                        <li><a href="continents.html">KONTINENSEK</a></li>
+                        <div class="dropdown-content">
+                            <a href="afrika.html">Afrika</a>
+                            <a href="europa.html">Európa</a>
+                            <a href="azsia.html">Ázsia</a>
+                            <a href="eszak-amerika.html">Észak-Amerika</a>
+                            <a href="del-amerika.html">Dél-Amerika</a>
+                            <a href="oceania.html">Óceánia</a>
+                        </div>
+                    </div>
+                    <li><a href="games.html">JÁTÉKOK</a></li>
+                    <li><a href="">KAPCSOLAT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="inst-container">
+            <h1>VAKTÉRKÉP</h1>
+            <h3>DÉL-AMERIKA</h3>
+        </div>
+    </section>
+    <section class="content">
+        <div class="game">
+            <button id="start">Játék indítása</button>
+            <div class="row">
+                <div class="col">
+                    <div id="map-container">
+                        <img src="Images/vak-damerika.png" id="blindmap">
+                    </div>
+                </div>
+                <div class="col">
+                    <div id="country-list"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button id="submit">ELLENŐRZÉS</button>
+                </div>
+                <div class="col">
+                    <button id="restart">ÚJRAKEZDÉS</button>
+                </div>
+            </div>
+            <p id="result"></p>
+            <script src="SCRIPTS/del-amerika-id-map-game.js"></script>
+        </div>
+    </section>
+</body>
+</html>

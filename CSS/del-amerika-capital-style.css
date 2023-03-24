@@ -196,7 +196,7 @@ nav .fa{
     border-width: 0px;
     color: white;
     font-weight: bold;
-    background: green;
+    background: lightgreen;
     cursor: pointer;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: green;
@@ -249,7 +249,7 @@ button {
     font-weight: bold;
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: green;
-    background-color: green;
+    background-color: lightgreen;
     transition: background-color 0.3s ease;
 }
 
@@ -301,6 +301,7 @@ button:hover {
     }
     .nav-links{
         position: absolute;
+        display: none;
         background-color: green;
         height: 100%;
         width: 200px;

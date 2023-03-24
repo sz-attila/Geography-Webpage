@@ -148,20 +148,30 @@ nav .fa{
     margin-bottom: 50px;
     width: 40%;
     text-align: center;
-    padding-top: 50px;
     box-shadow: 0 0 20px rgba(0,0,0,0.15);
     border: 3px solid gold;
     border-radius: 10px;
 }
-.game img{
-    max-width: 50vh;
-    height: 100%;
+.img-container{
+    background-image: url(../Images/stars.jpg);
+    width: 100%;
+    height: 300px;
     border-radius: 10px;
+    overflow: hidden;
+    position: relative;
 }
-.game h1{
-    margin-bottom: 20px;
-    font-size: 30px;
+.img-container h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 60px;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-weight: bold;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: gold;
 }
+
 .text{
     color: black;
     margin-left: 20px;
@@ -217,7 +227,9 @@ nav .fa{
     font-weight: bold;
     transition: 1s;
 }
-
+button{
+    margin: 10px;
+}
 /*MAIN SECTION - END*/
 
 /*FOOTER SECTION - START*/
@@ -254,6 +266,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
+        display: none;
         background-color: gold;
         height: 100%;
         width: 200px;
@@ -293,5 +306,8 @@ nav .fa{
     }
     .game{
         width: 80%;
+    }
+    .img-container h1{
+        font-size: 40px;
     }
 }

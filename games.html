@@ -42,8 +42,32 @@
     </section>
     <section class="game-container">
         <div class="game">
-            <h1>ZÁSZLÓ KITALÁLÓ</h1>
-            <img src="Afrika/Flag_of_South_Africa.jpg">
+            <div class="img-container" id="quiz">
+                <h1>ELLENŐRIZD A TUDÁSOD!</h1>
+            </div>
+            <p class="text">
+                Tudásellenőrző kvíz, aminek a segítségével felmérheted a tudásodat a világ országairól. 
+                A kérdések a 7-8. osztályos, illetve a 9-10. osztályos tankönyvek fejezeteiből gyűjtött tananyagra
+                kérdeznek rá. A játékban 1 kérdésre 4 válaszopció van, amiből akár több is helyes lehet.
+            </p>
+            <div class="row">
+                <div class="dummy-col"></div>
+                <div class="col">
+                    <p class="easy">KVÍZ</p>
+                    <p class="text">
+                        A kvíz foglalkozik a következő 7-8. osztályos tankönyvbeli fejezetekkel: "III. Életünk Magyarországon",
+                        "V. Tágabb környezetünk", "VI. Kitekintés Európába", "VII. Távoli tájakon", "VIII. A megismert "új kontinens"",
+                        "IX. Amerről felkel a Nap: Ázsia". Illetve felkészíti a 9-10. osztályos tankönyvbeli fejezettel: "A nemzetgazdaságtól a világgazdaságig". 
+                    </p>
+                    <button id="easyBtn" onclick="openQuizGame()">Indítás</button>
+                </div>
+                <div class="dummy-col"></div>
+            </div>
+        </div>
+        <div class="game">
+            <div class="img-container" id="flags">
+                <h1>ZÁSZLÓ KITALÁLÓ</h1>
+            </div>
             <p class="text">A zászlók vegyesen fognak megjelenni az összes kontinensről. Minden játék 10 kitalálandó zászlóból áll.
                 Válassz nehézségi fokot!
             </p>
@@ -68,8 +92,9 @@
             </div>
         </div>
         <div class="game">
-            <h1>FŐVÁROS KITALÁLÓ</h1>
-            <img src="Afrika/Flag_of_South_Africa.jpg">
+            <div class="img-container" id="capitals">
+                <h1>FŐVÁROS KITALÁLÓ</h1>
+            </div>
             <p class="text">Az országok vegyesen fognak megjelenni az összes kontinensről. Minden játék 10 kitalálandó fővárosból áll.
                 Válassz nehézségi fokot!
             </p>
@@ -93,6 +118,62 @@
                 </div>
             </div>
         </div>
+        <div class="game">
+            <div class="img-container" id="maps">
+                <h1>VAKTÉRKÉPEK</h1>
+            </div>
+            <p class="text">Az alábbiakban adott kontinensek vaktérképei találhatóak. Válaszd ki az általad kívánt térképet és 
+                próbáld meg helyesen kitölteni a térképet!
+            </p>
+            <div class="row">
+                <div class="col">
+                    <p class="text">AFRIKA</p>
+                    <p class="easy">Ország név alapú térkép</p>
+                    <button id="easyBtn" onclick="openAfrikaMapGame()">Kezdés</button>
+                    <p class="hard">Számozás alapú térkép</p>
+                    <button id="hardBtn" onclick="openAfrikaIdMapGame()">Kezdés</button>
+                </div>
+                <div class="col">
+                    <p class="text">EURÓPA</p>
+                    <p class="easy">Ország név alapú térkép</p>
+                    <button id="easyBtn" onclick="openEuropaMapGame()">Kezdés</button>
+                    <p class="hard">Számozás alapú térkép</p>
+                    <button id="hardBtn" onclick="openEuropaIdMapGame()">Kezdés</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="text">ÁZSIA</p>
+                    <p class="easy">Ország név alapú térkép</p>
+                    <button id="easyBtn" onclick="openAzsiaMapGame()">Kezdés</button>
+                    <p class="hard">Számozás alapú térkép</p>
+                    <button id="hardBtn" onclick="openAzsiaIdMapGame()">Kezdés</button>
+                </div>
+                <div class="col">
+                    <p class="text">DÉL-AMERIKA</p>
+                    <p class="easy">Ország név alapú térkép</p>
+                    <button id="easyBtn" onclick="openDelAmerikaMapGame()">Kezdés</button>
+                    <p class="hard">Számozás alapú térkép</p>
+                    <button id="hardBtn" onclick="openDelAmerikaIdMapGame()">Kezdés</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="text">MAGYARORSZÁG</p>
+                    <p class="easy">Megye név alapú térkép</p>
+                    <button id="easyBtn" onclick="openMagyarMapGame()">Kezdés</button>
+                    <p class="hard">Számozás alapú térkép</p>
+                    <button id="hardBtn" onclick="openMagyarIdMapGame()">Kezdés</button>
+                </div>
+                <div class="col">
+                    <p class="text">AMERIKAI EGYESÜLT ÁLLAMOK</p>
+                    <p class="easy">Állam név alapú térkép</p>
+                    <button id="easyBtn" onclick="openAllamokMapGame()">Kezdés</button>
+                    <p class="hard">Számozás alapú térkép</p>
+                    <button id="hardBtn" onclick="openAllamokIdMapGame()">Kezdés</button>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="footer">
         <div class="footer-container">
@@ -108,6 +189,23 @@
         </div>
     </section>
     <script>
+        document.getElementById("quiz").style.backgroundImage = "linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(../Images/question.jpg)";
+        document.getElementById("quiz").style.backgroundRepeat = "no-repeat";
+        document.getElementById("quiz").style.backgroundSize = "cover";
+        document.getElementById("flags").style.backgroundImage = "linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(../Images/flags.jpeg)";
+        document.getElementById("flags").style.backgroundRepeat = "no-repeat";
+        document.getElementById("flags").style.backgroundSize = "cover";
+        document.getElementById("maps").style.backgroundImage = "linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(../Images/map.jpg)";
+        document.getElementById("maps").style.backgroundRepeat = "no-repeat";
+        document.getElementById("maps").style.backgroundSize = "cover";
+        document.getElementById("capitals").style.backgroundImage = "linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(../Images/budapest.jpg)";
+        document.getElementById("capitals").style.backgroundRepeat = "no-repeat";
+        document.getElementById("capitals").style.backgroundSize = "cover";
+
+
+        function openQuizGame() {
+            window.open("quiz-game.html", "_self");
+        }
         function openExpertFlagGame() {
             window.open("hard-flag-game.html", "_self");
         }
@@ -119,6 +217,42 @@
         }
         function openBeginnerCapitalGame() {
             window.open("easy-capital-game.html", "_self");
+        }
+        function openAfrikaMapGame() {
+            window.open("afrika-map-game.html", "_self");
+        }
+        function openAfrikaIdMapGame() {
+            window.open("afrika-id-map-game.html", "_self");
+        }
+        function openEuropaMapGame() {
+            window.open("europa-map-game.html", "_self");
+        }
+        function openEuropaIdMapGame() {
+            window.open("europa-id-map-game.html", "_self");
+        }
+        function openAzsiaMapGame() {
+            window.open("azsia-map-game.html", "_self");
+        }
+        function openAzsiaIdMapGame() {
+            window.open("azsia-id-map-game.html", "_self");
+        }
+        function openDelAmerikaMapGame() {
+            window.open("del-amerika-map-game.html", "_self");
+        }
+        function openDelAmerikaIdMapGame() {
+            window.open("del-amerika-id-map-game.html", "_self");
+        }
+        function openMagyarMapGame() {
+            window.open("magyar-map-game.html", "_self");
+        }
+        function openMagyarIdMapGame() {
+            window.open("magyar-id-map-game.html", "_self");
+        }
+        function openAllamokMapGame() {
+            window.open("allamok-map-game.html", "_self");
+        }
+        function openAllamokIdMapGame() {
+            window.open("allamok-id-map-game.html", "_self");
         }
     </script>
 </body>

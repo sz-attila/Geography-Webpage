@@ -12,19 +12,15 @@ let timerInterval;
 
 startButton.addEventListener("click", () => {
     fetch("SCRIPTS/afrika.json")
-        .then(response => response.json())
-        .then(data => {
-            countries = data.map(country => ({
-                name: country.name.trim().toLowerCase(),
-                image: country.image,
-                capital: country.capital
-            }));
-            startGame();
-        })
-        .catch(error => {
-            console.error(error);
-            alert("Nem sikerült betölteni az adatokat! Próbáld újra később!");
-        });
+    .then(response => response.json())
+    .then(data => {
+      countries = data;
+      startGame();
+    })
+    .catch(error => {
+      console.error(error);
+      alert("Nem sikerült betölteni az adatokat! Próbáld újra később!");
+    });
 });
 
 function startGame() {
@@ -47,39 +43,39 @@ function startGame() {
 
 function checkAnswer() {
     const guess = answerInput.value.trim().toLowerCase();
-
     answerInput.value = '';
-
-    for (let i = 0; i < countries.length; i++) {
-        const country = countries[i];
-
-        if (country.name === guess && !guessedCountries.includes(country)) {
-            guessedCountries.push(country);
-
-            const guessedListItem = document.createElement('div');
-            const countryName = document.createElement('h1');
-            const capitalCity = document.createElement('p');
-            const countryImage = document.createElement('img');
-            countryName.textContent = country.name.trim().toUpperCase();
-            countryName.style.fontSize = '18px';
-
-            capitalCity.textContent = `Főváros: ${country.capital}`;
-            countryImage.src = country.image;
-            guessedListItem.appendChild(countryName);
-            guessedListItem.appendChild(countryImage);
-            guessedListItem.appendChild(capitalCity);
-            guessedList.appendChild(guessedListItem);
-            guessedList.style.border = '1px solid saddlebrown';
-            if (guessedCountries.length === countries.length) {
-                endGame('won');
-            }
-
-            updateGuessesRemaining();
-            break;
-        }
+  
+    const country = countries.find(c => c.name.toLowerCase() === guess);
+  
+    if (country && !guessedCountries.includes(country)) {
+      guessedCountries.push(country);
+      const guessedListItem = document.createElement('div');
+      const countryName = document.createElement('h1');
+      const capitalCity = document.createElement('p');
+      const countryImage = document.createElement('img');
+  
+      countryName.textContent = country.name.trim().toUpperCase();
+      countryName.style.fontSize = '18px';
+  
+      capitalCity.textContent = `Főváros: ${country.capital}`;
+      countryImage.src = country.image;
+      countryImage.alt = country.name;
+      countryImage.style.maxWidth = '100px';
+      countryImage.style.maxHeight = '60px';
+      guessedListItem.appendChild(countryName);
+      guessedListItem.appendChild(countryImage);
+      guessedListItem.appendChild(capitalCity);
+      guessedList.appendChild(guessedListItem);
+      guessedList.style.border = '1px solid saddlebrown';
+  
+      if (guessedCountries.length === countries.length) {
+        endGame('won');
+      }
+  
+      updateGuessesRemaining();
     }
-}
-
+  }
+  
 function startTimer() {
     timerInterval = setInterval(() => {
         timeLeft--;

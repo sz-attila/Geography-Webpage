@@ -1,14 +1,15 @@
 [
-    {"name": "Argentína", "image": "D-Amerika/Flag_of_Argentina.jpg", "capital": "Buenos Aires"},
-    {"name": "Bolívia", "image": "D-Amerika/Flag_of_Bolivia_(state).jpg", "capital": "La Paz"},
-    {"name": "Brazília", "image": "D-Amerika/Flag_of_Brazil.jpg", "capital": "Brazíliaváros"},
-    {"name": "Chile", "image": "D-Amerika/Flag_of_Chile.jpg", "capital": "Santiago"},
-    {"name": "Kolumbia", "image": "D-Amerika/Flag_of_Colombia.jpg", "capital": "Bogotá"},
-    {"name": "Ecuador", "image": "D-Amerika/Flag_of_Ecuador.jpg", "capital": "Quito"},
-    {"name": "Guyana", "image": "D-Amerika/Flag_of_Guyana.jpg", "capital": "Georgetown"},
-    {"name": "Paraguay", "image": "D-Amerika/Flag_of_Paraguay.jpg", "capital": "Asunción"},
-    {"name": "Peru", "image": "D-Amerika/1280px-Flag_of_Peru_(state).jpg", "capital": "Lima"},
-    {"name": "Surinam", "image": "D-Amerika/Flag_of_Suriname.jpg", "capital": "Paramaribo"},
-    {"name": "Uruguay", "image": "D-Amerika/Flag_of_Uruguay.jpg", "capital": "Montevideo"},
-    {"name": "Venezuela", "image": "D-Amerika/Flag_of_Venezuela_(state).jpg", "capital": "Caracas"}
-    ]
+    {"id": "13", "name": "Argentína", "image": "D-Amerika/Flag_of_Argentina.jpg", "capital": "Buenos Aires"},
+    {"id": "9", "name": "Bolívia", "image": "D-Amerika/Flag_of_Bolivia_(state).jpg", "capital": "La Paz"},
+    {"id": "7", "name": "Brazília", "image": "D-Amerika/Flag_of_Brazil.jpg", "capital": "Brazíliaváros"},
+    {"id": "12", "name": "Chile", "image": "D-Amerika/Flag_of_Chile.jpg", "capital": "Santiago"},
+    {"id": "1", "name": "Kolumbia", "image": "D-Amerika/Flag_of_Colombia.jpg", "capital": "Bogotá"},
+    {"id": "6", "name": "Ecuador", "image": "D-Amerika/Flag_of_Ecuador.jpg", "capital": "Quito"},
+    {"id": "3", "name": "Guyana", "image": "D-Amerika/Flag_of_Guyana.jpg", "capital": "Georgetown"},
+    {"id": "5", "name": "Francia-Guyana", "image": "Europa/Flag_of_France.jpg", "capital": "Cayenne"},
+    {"id": "10", "name": "Paraguay", "image": "D-Amerika/Flag_of_Paraguay.jpg", "capital": "Asunción"},
+    {"id": "8", "name": "Peru", "image": "D-Amerika/1280px-Flag_of_Peru_(state).jpg", "capital": "Lima"},
+    {"id": "4", "name": "Surinam", "image": "D-Amerika/Flag_of_Suriname.jpg", "capital": "Paramaribo"},
+    {"id": "11", "name": "Uruguay", "image": "D-Amerika/Flag_of_Uruguay.jpg", "capital": "Montevideo"},
+    {"id": "2", "name": "Venezuela", "image": "D-Amerika/Flag_of_Venezuela_(state).jpg", "capital": "Caracas"}
+]

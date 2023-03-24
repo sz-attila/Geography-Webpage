@@ -1,8 +1,3 @@
-let flags = [];
-let points = 0;
-let currentFlagIndex = 0;
-let flagsRemaining = 10;
-
 const flag = document.getElementById("flag");
 const answer = document.getElementById("answer");
 const result = document.getElementById("result");
@@ -10,6 +5,11 @@ const score = document.getElementById("score");
 const pointsSpan = score.appendChild(document.createElement("span"));
 const start = document.getElementById("start");
 const restart = document.getElementById("restart");
+
+let flags = [];
+let points = 0;
+let currentFlagIndex = 0;
+let flagsRemaining = 10;
 
 answer.style.display = "none";
 restart.style.display = "none";
@@ -21,7 +21,7 @@ start.addEventListener("click", () => {
     .then(response => response.json())
     .then(data => {
       flags = data;
-      restartGame();
+      startGame();
     })
     .catch(error => {
       console.error(error);
@@ -30,10 +30,10 @@ start.addEventListener("click", () => {
 });
 
 restart.addEventListener("click", () => {
-  restartGame();
+  startGame();
 });
 
-function restartGame() {
+function startGame() {
   points = 0;
   pointsSpan.textContent = points;
   flagsRemaining = 10;

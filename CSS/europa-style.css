@@ -184,15 +184,9 @@ nav .fa{
 }
 .hidden h1{
     font-size: 60px;
-    color: white;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: royalblue;
+    color: royalblue;
     margin-top: 30px;
     margin-bottom: 10px;
-}
-.hidden h1:hover{
-    color: royalblue;
-    transition: 1s;
 }
 
 .hidden h3{
@@ -222,14 +216,9 @@ nav .fa{
 }
 .hidden-col h3{
     font-size: 30px;
-    color: white;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: royalblue;
-}
-.hidden-col h3:hover{
     color: royalblue;
-    transition: 1s;
 }
+
 .hidden-col p{
     font-size: 15px;
     color: black;
@@ -256,6 +245,7 @@ nav .fa{
 .game-col{
     margin: auto;
     margin-bottom: 50px;
+    display: inline-block;
     width: 20%;
     text-align: center;
     padding-top: 50px;
@@ -333,6 +323,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
+        display: none;
         background-color: sandybrown;
         height: 100%;
         width: 200px;

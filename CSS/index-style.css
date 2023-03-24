@@ -248,12 +248,13 @@ nav .fa{
     font-weight: bold;
 }
   
-@media(max-width: 900px){
+@media only screen and (max-width: 900px){
     .nav-links ul li{
         display: block;
     }
     .nav-links{
         position: absolute;
+        display: none;
         background-image: url(../Images/stars.jpg);
         height: 100vh;
         width: 200px;

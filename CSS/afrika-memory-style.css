@@ -229,6 +229,9 @@ nav .fa{
 }
 #guesses-remaining{
     margin: 20px 0 20px 0;
+    font-size: 20px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: saddlebrown;
 }
 /*MAIN SECTION - END*/
 
@@ -266,6 +269,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
+        display: none;
         background-color: sandybrown;
         height: 100%;
         width: 200px;

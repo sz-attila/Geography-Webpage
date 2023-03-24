@@ -183,15 +183,9 @@ nav .fa{
 }
 .hidden h1{
     font-size: 60px;
-    color: white;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: green;
+    color: green;
     margin-top: 30px;
     margin-bottom: 10px;
-}
-.hidden h1:hover{
-    color: green;
-    transition: 1s;
 }
 
 .hidden h3{
@@ -221,14 +215,9 @@ nav .fa{
 }
 .hidden-col h3{
     font-size: 30px;
-    color: white;
-    -webkit-text-stroke: 1px;
-    -webkit-text-stroke-color: green;
-}
-.hidden-col h3:hover{
     color: green;
-    transition: 1s;
 }
+
 .hidden-col p{
     font-size: 15px;
     color: black;
@@ -332,6 +321,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
+        display: none;
         background-color: sandybrown;
         height: 100%;
         width: 200px;

@@ -1,8 +1,3 @@
-let countries = [];
-let points = 0;
-let currentCountryIndex = 0;
-let countriesRemaining = 10;
-
 const country = document.getElementById("country");
 const answer = document.getElementById("answer");
 const result = document.getElementById("result");
@@ -10,6 +5,11 @@ const score = document.getElementById("score");
 const pointsSpan = score.appendChild(document.createElement("span"));
 const start = document.getElementById("start");
 const restart = document.getElementById("restart");
+
+let flags = [];
+let points = 0;
+let currentFlagIndex = 0;
+let flagsRemaining = 10;
 
 answer.style.display = "none";
 restart.style.display = "none";
