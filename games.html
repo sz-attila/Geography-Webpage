@@ -42,7 +42,7 @@
     </section>
     <section class="game-container">
         <div class="game">
-            <div class="img-container" id="quiz">
+            <div class="quiz-container">
                 <h1>ELLENŐRIZD A TUDÁSOD!</h1>
             </div>
             <p class="text">
@@ -65,7 +65,7 @@
             </div>
         </div>
         <div class="game">
-            <div class="img-container" id="flags">
+            <div class="flags-container">
                 <h1>ZÁSZLÓ KITALÁLÓ</h1>
             </div>
             <p class="text">A zászlók vegyesen fognak megjelenni az összes kontinensről. Minden játék 10 kitalálandó zászlóból áll.
@@ -92,7 +92,7 @@
             </div>
         </div>
         <div class="game">
-            <div class="img-container" id="capitals">
+            <div class="capital-container">
                 <h1>FŐVÁROS KITALÁLÓ</h1>
             </div>
             <p class="text">Az országok vegyesen fognak megjelenni az összes kontinensről. Minden játék 10 kitalálandó fővárosból áll.
@@ -119,7 +119,7 @@
             </div>
         </div>
         <div class="game">
-            <div class="img-container" id="maps">
+            <div class="map-container">
                 <h1>VAKTÉRKÉPEK</h1>
             </div>
             <p class="text">Az alábbiakban adott kontinensek vaktérképei találhatóak. Válaszd ki az általad kívánt térképet és 
@@ -189,20 +189,6 @@
         </div>
     </section>
     <script>
-        document.getElementById("quiz").style.backgroundImage = "linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(../Images/question.jpg)";
-        document.getElementById("quiz").style.backgroundRepeat = "no-repeat";
-        document.getElementById("quiz").style.backgroundSize = "cover";
-        document.getElementById("flags").style.backgroundImage = "linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(../Images/flags.jpeg)";
-        document.getElementById("flags").style.backgroundRepeat = "no-repeat";
-        document.getElementById("flags").style.backgroundSize = "cover";
-        document.getElementById("maps").style.backgroundImage = "linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(../Images/map.jpg)";
-        document.getElementById("maps").style.backgroundRepeat = "no-repeat";
-        document.getElementById("maps").style.backgroundSize = "cover";
-        document.getElementById("capitals").style.backgroundImage = "linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(../Images/budapest.jpg)";
-        document.getElementById("capitals").style.backgroundRepeat = "no-repeat";
-        document.getElementById("capitals").style.backgroundSize = "cover";
-
-
         function openQuizGame() {
             window.open("quiz-game.html", "_self");
         }
