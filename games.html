@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Világjáró</title>
+    <title>VILÁGLÁTÓ</title>
     <link rel="stylesheet" href="CSS/games-style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +14,7 @@
 <body>  
     <section class="header"> 
         <nav>
-            <a class="title">VILÁGJÁRÓ</a>
+            <a class="title">VILÁGLÁTÓ</a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
@@ -59,7 +59,30 @@
                         "V. Tágabb környezetünk", "VI. Kitekintés Európába", "VII. Távoli tájakon", "VIII. A megismert "új kontinens"",
                         "IX. Amerről felkel a Nap: Ázsia". Illetve felkészíti a 9-10. osztályos tankönyvbeli fejezettel: "A nemzetgazdaságtól a világgazdaságig". 
                     </p>
-                    <button id="easyBtn" onclick="openQuizGame()">Indítás</button>
+                    <div class="row">
+                        <div class="col">
+                            <button id="easyBtn" onclick="openQuiz3Game()">III.</button>
+                        </div>
+                        <div class="col">
+                            <button id="easyBtn" onclick="openQuiz5Game()">V.</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button id="easyBtn" onclick="openQuiz6Game()">VI.</button>
+                        </div>
+                        <div class="col">
+                            <button id="easyBtn" onclick="openQuiz7Game()">VII.</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <button id="easyBtn" onclick="openQuiz8Game()">VIII.</button>
+                        </div>
+                        <div class="col">
+                            <button id="easyBtn" onclick="openQuiz9Game()">IX.</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="dummy-col"></div>
             </div>
@@ -178,8 +201,8 @@
     <section class="footer">
         <div class="footer-container">
             <div>
-                <h1>Világjáró</h1>
-                <p>© 2021 Világjáró</p>
+                <h1>VILÁGLÁTÓ</h1>
+                <p>© 2023 VILÁGLÁTÓ</p>
             </div>
             <div>
                 <h1>Kapcsolat</h1>
@@ -189,8 +212,23 @@
         </div>
     </section>
     <script>
-        function openQuizGame() {
-            window.open("quiz-game.html", "_self");
+        function openQuiz3Game() {
+            window.open("quiz3-game.html", "_self");
+        }
+        function openQuiz5Game() {
+            window.open("quiz5-game.html", "_self");
+        }
+        function openQuiz6Game() {
+            window.open("quiz6-game.html", "_self");
+        }
+        function openQuiz7Game() {
+            window.open("quiz7-game.html", "_self");
+        }
+        function openQuiz8Game() {
+            window.open("quiz8-game.html", "_self");
+        }
+        function openQuiz9Game() {
+            window.open("quiz9-game.html", "_self");
         }
         function openExpertFlagGame() {
             window.open("hard-flag-game.html", "_self");

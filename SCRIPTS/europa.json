@@ -13,7 +13,7 @@
     {"id": "4", "name": "Finnország", "image": "Europa/Flag_of_Finland.jpg", "capital": "Helsinki"},
     {"id": "11", "name": "Franciaország", "image": "Europa/Flag_of_France.jpg", "capital": "Párizs"},
     {"id": "12", "name": "Németország", "image": "Europa/Flag_of_Germany.jpg", "capital": "Berlin"},
-    {"id": "38", "name": "Görögország", "image": "Europa/Flag_of_the_Greece.jpg", "capital": "Athén"},
+    {"id": "38", "name": "Görögország", "image": "Europa/Flag_of_Greece.jpg", "capital": "Athén"},
     {"id": "24", "name": "Magyarország", "image": "Europa/Flag_of_Hungary.jpg", "capital": "Budapest"},
     {"id": "1", "name": "Izland", "image": "Europa/Flag_of_Iceland.jpg", "capital": "Reykjavík"},
     {"id": "6", "name": "Írország", "image": "Europa/Flag_of_Ireland.jpg", "capital": "Dublin"},

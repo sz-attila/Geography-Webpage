@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>VILÁGLÁTÓ</title>
-    <link rel="stylesheet" href="CSS/continents-style.css">
+    <link rel="stylesheet" href="CSS/quiz-style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,48 +37,21 @@
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="inst-container">
-            <h1>Válaszd ki a kívánt kontinenst és kezd el a felfedezést!</h1>
+            <h1>KVÍZ</h1>
+            <h3>VII. fejezet: Távoli tájakon</h3>
         </div>
     </section>
-    <section class="continent-container">
-        <div class="row">
-            <div class="col">
-                <img src="Images/africa.png">
-                <div class="layer" id="af">
-                    <a href="afrika.html"><h3>AFRIKA</h3></a>
-                </div>
-            </div>
-            <div class="col">
-                <img src="Images/europe.jpg">
-                <div class="layer" id="eu">
-                    <a href="europa.html"><h3>EURÓPA</h3></a>
-                </div>
-            </div>
-            <div class="col">
-                <img src="Images/asia.png">
-                <div class="layer" id="as">
-                    <a href="azsia.html"><h3>ÁZSIA</h3></a>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <img src="Images/north-america.png">
-                <div class="layer" id="ea">
-                    <a href="eszak-amerika.html"><h3>ÉSZAK-AMERIKA</h3></a>
-                </div>
-            </div>
-            <div class="col">
-                <img src="Images/south-america.png">
-                <div class="layer" id="da">
-                    <a href="del-amerika.html"><h3>DÉL-AMERIKA</h3></a>
-                </div>
-            </div>
-            <div class="col">
-                <img src="Images/oceania.png">
-                <div class="layer" id="oc">
-                    <a href="oceania.html"><h3>ÓCEÁNIA</h3></a>
-                </div>
+    <section class="content">
+        <div id="game-container">            
+            <div class="game">
+                <form id="quiz-form">
+                    <div id="question-container"></div>
+                    <button id="submit-button" type="submit">Ellenőrzés</button>
+                    <button id="reset-button">Újrakezdés</button>
+                </form>
+                <div id="result-container"></div>
+
+                <script src="SCRIPTS/quiz7-game.js"></script>
             </div>
         </div>
     </section>

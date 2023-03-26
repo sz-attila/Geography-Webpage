@@ -287,6 +287,13 @@ nav .fa{
     font-weight: bold;
     transition: 1s;
 }
+#abra-col{
+    min-height: 500px;
+    background-image: url(../Images/abra2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: fit;
+}
 /*MAIN SECTION - END*/
 
 /*FOOTER SECTION - START*/
@@ -324,7 +331,7 @@ nav .fa{
     .nav-links{
         position: absolute;
         display: none;
-        background-color: sandybrown;
+        background-color: royalblue;
         height: 100%;
         width: 200px;
         top: 0;

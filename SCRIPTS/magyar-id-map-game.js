@@ -60,7 +60,7 @@ function generateCountryList() {
         guessEl.type = "text";
         guessEl.style.width = "300px";
         guessEl.setAttribute("data-country-id", country.id);
-        guessEl.placeholder = "Írd be az ország nevét!";
+        guessEl.placeholder = "Írd be a megye nevét!";
 
         guessEl.addEventListener('keydown', function(event) {
             if (event.keyCode === 13) {

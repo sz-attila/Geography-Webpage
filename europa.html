@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Világjáró</title>
+    <title>VILÁGLÁTÓ</title>
     <link rel="stylesheet" href="CSS/europa-style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +14,7 @@
 <body>
     <section class="header"> 
         <nav>
-            <a class="title">VILÁGJÁRÓ</a>
+            <a class="title">VILÁGLÁTÓ</a>
             <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
@@ -637,7 +637,7 @@
         </div>
 
         <div class="hidden" id="francia" style="display: none;">
-            <h1>Franciaország</h1>
+            <h1>FRANCIAORSZÁG</h1>
             <div class="hidden-row" >
                 <div class="hidden-col">
                     <h3>Főváros</h3>
@@ -861,7 +861,7 @@
                 <h3>Luxemburg</h3>
                 <img src="Europa/1280px-Flag_of_Luxembourg.jpg">
             </div>
-            <div class="col">
+            <div class="col" id="detailed" onclick="showDiv('magyar')">
                 <h3>Magyarország</h3>
                 <img src="Europa/Flag_of_Hungary.jpg">
             </div>
@@ -1163,6 +1163,388 @@
                 </div>
             </div>
             <button onclick="hideDiv('lit');return false;" id="closeBtn">Bezár</button>
+        </div>
+
+        <div class="hidden" id="magyar" style="display: none;">
+            <h1>MAGYARORSZÁG</h1>
+            <div class="hidden-row">
+                <div class="dummy-col"></div>
+                <div class="hidden-col">
+                    <h3>Főváros</h3>
+                    <p>Budapest</p>
+                    <h3>Lakosság</h3>
+                    <p>kb. 9 700 000 fő</p>
+                    <h3>Terület</h3>
+                    <p>93 025 km²</p>
+                    <h3>Államforma</h3>
+                    <p>Köztársaság</p>
+                    <h3>Pénznem</h3>
+                    <p>Forint</p>
+                </div>
+                <div class="dummy-col"></div>
+            </div>
+            <h1>Hazánk népessége</h1>
+            <div class="hidden-row" >
+                <div class="hidden-col">
+                    <h3>Nemzetiségek Magyarországon</h3>
+                    <p>Magyarországon élő emberek döntő része magyar nemzetiségű. Kevesebb, mint 10%-a a lakosságnak tartozik 
+                        más nemzetiséghez. Ezen nemzetiségeket kultúrájuk, nyelvük és közös történelmi múltjuk kötik össze. A közösségeket elsősorban szomszédos országok
+                        népei alkotják, azokon a területeken, ahova betelepítették őket a történelem során (pl. németek Baranya megyében). Magyarországon a legnépesebb
+                        nemzetiség a cigányság kb. 600 000 fővel. Cigányságon belül több csoport különíthető el. Főleg Budapesten, az északkeleti országrészekben:
+                        Borsod-Abaúj-Zemplén és Heves megyében, és a Dél-Dunántúlon élnek.  
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Nemzetiségek Magyarországon</h3>
+                    <p>A második legnagyobb a német nemzetiség (kb. 180 ezer fő) után következnek a román, szlovák és horvát 
+                        nemzetiségűek (20-40 ezer fő). A szerb, ukrán és lengyel nemzetiségű lakosok száma 10-10 ezer fő.
+                        Hazánkban néhány ezer görög, bolgár, szlovén, ruszin és örmény nemzetiségű lakos él. 
+                        Az 1990-es évektől újabb népcsoportok telepedtek le hazánkban, akik a távoli kultúrákból 
+                        érkeztek. Legtöbben a kínai, arab, orosz és vietnámi nemzetiségűek, akik elsősorban a 
+                        fővárost választották új otthonuknak. Ezek a csoportok nem tartoznak hazánk hivatalosan 
+                        elismert nemzetiségei közé.
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Vallási megoszlás</h3>
+                    <p>Magyarországon a legtöbb hívő a római katolikus egyház tagja, melynek központja Esztergomban található, és az országban széles körben eloszlanak. 
+                        A református egyház főbb központja a Tiszántúlon, különösen Debrecen környékén található. Az evangélikusok számítanak a harmadik legnagyobb történelmi 
+                        egyháznak hazánkban, míg a görögkatolikusok jellemzően az ország északkeleti részén élnek. 
+                        A zsidó vallás hívei főként Budapesten koncentrálódnak, és a fővárosban találhatóak a hazánkban 
+                        újonnan megjelenő vallások, például a buddhizmus, követői is.
+                    </p>
+                </div>
+            </div>
+            <h1>A népesség változása hazánkban</h1>
+            <div class="hidden-row">
+                <div class="hidden-col">
+                    <h3>A népesség váltakozása</h3>
+                    <p>A természetes szaporodás azt jelenti, hogy ha a születések és a halálozások száma kiegyenlített, akkor 
+                        a népesség száma stabil marad. Ha azonban többen halnak meg, mint ahányan születnek, akkor a népesség 
+                        természetes úton csökken. Hazánkban az utóbbi évtizedekben tapasztaltuk a természetes fogyás 
+                        növekedését, mivel évente több ember hal meg, mint ahány újszülött jön a világra. Az alacsony 
+                        születésszám fő okai közé tartoznak a társadalmi-gazdasági és kulturális tényezők, 
+                        például az anyagi helyzet és a munkavállalás feltételei. 
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>A népesség váltakozása</h3>
+                    <p>Az állam számos kedvezményt biztosít 
+                        (pl. adókedvezmények, lakástámogatás), hogy ösztönözze a gyermekvállalást. Azonban a 
+                        fiatalok aránya az idősekhez képest csökken, amely a társadalom elöregedéséhez vezet. 
+                        A születéskor várható átlagos élettartam növekedése is hozzájárul az idősek arányának 
+                        növekedéséhez, mivel a ma született gyermekek átlagosan jóval tovább élnek, mint az előző 
+                        generációk.
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Népvándorlás</h3>
+                    <p>Migrációt vagy népességmozgást jelent, amikor valaki másik helyet választ lakóhelyéül. Belföldi migráció 
+                        esetén az emberek átköltöznek egyik településről a másikra. Az átköltözés okai között gyakran szerepel 
+                        egy új munkahely, de fiatalok szintén gyakran változtatják lakóhelyüket tanulmányaik miatt. Általában a 
+                        fiatalabb korosztályra jellemző a migráció. A migrációs egyenleg a bevándorlók és a kivándorlók számának 
+                        különbsége az országban. Ha hozzáadjuk a migrációs egyenleg értékét a természetes szaporodáshoz, akkor megkapjuk 
+                        a népességszám tényleges változását. Az országba bevándorlók többsége a szomszédos országokból érkezik, közülük 
+                        is a legtöbben magyar nemzetiségűek. A kivándorlók egy része munkavállalás céljából, mások pedig 
+                        tanulmányi szándékkal költöznek rövidebb-hosszabb időre külföldre.
+                    </p>
+                </div>
+            </div>
+            <h1>Települések Magyarországon</h1>
+            <div class="hidden-row">
+                <div class="hidden-col">
+                    <h3>A népesség eloszlása</h3>
+                    <p>Az ország településeinek harmada apró falvakból áll, ahol a lakosság mindössze 3%-a él, és az ország lakosságának 
+                        70%-a városokban él. A dombságokban és középhegységeken kis területű és népességű települések találhatók, míg az 
+                        alföldön nagyobbak. A falvak általában csak a helyi lakosság szükségleteit elégítik ki az iskolák, orvosok és boltok szolgáltatásain
+                        keresztül. A városok központi szerepet játszanak, mivel munkahelyeket és különböző szolgáltatásokat 
+                        (például középiskolák, kórházak, boltok) kínálnak, amelyek szélesebb körű szükségleteket elégítenek ki.
+                        Az évszázadok során mind a falvak, mind a városok jelentős változásokon mentek keresztül, 
+                        különösen a 20. század közepétől kezdve.
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>A népesség eloszlása</h3>
+                    <p> Emellett a tanyákon is élnek emberek, amelyek 
+                        néhány házból álló szórványtelepülések, önállóan vagy kisebb csoportokban elhelyezkedve. 
+                        A tanyák főként az Alföldre jellemzőek, és lakóik főként mezőgazdasággal foglalkoznak, 
+                        bár ma már sokan más területeken is dolgoznak, például a vendéglátásban. Egyre több tanyát 
+                        használnak nyaralónak is. Magyarországon kb. 170 ezer ember lakik ezeken a szórványtelepüléseken.
+                        A különböző településtípusokon a mindennapi élet eltérő, ami a település típusától és 
+                        földrajzi elhelyezkedésétől is függ.
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>A népesség eloszlása</h3>
+                    <div id="abra-col"></div>
+                </div>
+            </div>
+            <h1>Budapest, a világváros</h1>
+            <div class="hidden-row">
+                <div class="hidden-col">
+                    <h3>Budapest</h3>
+                    <p>Budapest alapításától az első világháborúig gyorsan növekedett és a világ egyik jelentős városává vált. 
+                        Ebben az időszakban alakult ki a mai városi szerkezet, amely tartalmazza a sugárutakat, körutakat és tereket. 
+                        Számos olyan épület épült, amely ma is meghatározó az urbánus tájban. Budapest 1994 óta 23 kerületből áll.
+                        Amikor Budapestre érkezünk bármely irányból, először át kell haladnunk a várost körülvevő elővárosokon. 
+                        Ezek a területek általában családi házakból és lakóparkokból állnak, ahol az emberek általában a fővárosban 
+                        dolgoznak és igénybe veszik az ottani szolgáltatásokat, például vásárolnak, szórakoznak, tanulnak és egészségügyi 
+                        ellátást kapnak. Ezért reggelente hatalmas autóforgalom indul az elővárosokból a belváros felé, 
+                        míg délután az ellenkező irányba halad az áramlás, azaz az elővárosok lakossága ingázik a fővárosból hazafelé.
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Budapest</h3>
+                    <p>A 20. század végére a főváros nagy helyigényű gyárai, raktárai és vasúti létesítményei nagyrészt elavultak vagy elvesztették a 
+                        szerepüket. Azonban a felújításuk megkezdődött, és új funkcióval bekapcsolódnak a modern nagyváros életébe. 
+                        Emellett a belváros évszázados bérházai is felújításra szorulnak. A felújított városrészek vonzóak, így a lakosságszámuk is nő.
+                        A pesti oldal belvárosa, azaz a városmag az Országház környékén alakult ki. Közigazgatási, pénzügyi és 
+                        kereskedelmi szerepe mellett sok turistát is vonz. A budai városrészek központja pedig a Várnegyed, 
+                        ahol a közigazgatási, kulturális és idegenforgalmi szerepe kiemelkedő.
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Budapest</h3>
+                    <p>Magyarország településhálózatának egyik problémája a túlzott főváros-központúság, azaz az, hogy Budapest nagy 
+                        népességszámban és gazdaságban betöltött túlsúlya miatt más területek fejlődése lemarad. A főváros Magyarország 
+                        évente előállított termékeinek és szolgáltatásainak kb. 40%-át állítja elő, és a befektetések nagy része is 
+                        ide irányul. A főváros pénzügyi, kulturális és idegenforgalmi szerepe Kelet-Közép-Európában 
+                        is meghatározó.
+                    </p>
+                </div>
+            </div>
+            <div class="hidden-row">
+                <div class="dummy-col"></div>
+                <div class="hidden-col">
+                    <h3>Budapest problémái</h3>
+                    <p>Budapest lakossága számos nagyvárosi problémával küzd, melyekre az előnyökért cserébe kell megoldást találnia. 
+                        A belső városrészekben a zöldfelületek aránya kevés az európai átlaghoz képest, mivel az ingatlanfejlesztések 
+                        terjeszkedése gyakran károsítja a Budai-hegység és a pesti külvárosok erdeit és rétjeit. Az M0-ás autópálya 
+                        jelentősen csökkenti a városon áthaladó forgalmat, de a belső városrészek és az elővárosok autóforgalma óriási 
+                        terhet jelent Budapest lakosságának. Ennek kezeléséhez a négy metróvonal mellett a HÉV és a városi vasúti 
+                        hálózat fejlesztése is szükséges. A P+R parkolók a városba autóval érkezőket a közösségi közlekedés 
+                        igénybevételére bíztatják, míg az alternatív közlekedési módok (pl. kerékpározás) népszerűsítése hozzájárulhat 
+                        a belvárosi közlekedési és parkolási gondok enyhítéséhez. A közlekedés a levegőszennyezés és a zajszennyezés 
+                        fő forrása.
+                    </p>
+                </div>
+                <div class="dummy-col"></div>
+            </div>
+            <h1>Magyarország élelmiszer-gazdasága</h1>
+            <div class="hidden-row">
+                <div class="hidden-col">
+                    <h3>Gazdaság</h3>
+                    <p>
+                        Az élelmiszer-gazdaság célja, hogy kielégítse az élelmiszerigényeket, előállítson élelmiszeripari 
+                        alapanyagokat és élelmiszereket. A külkereskedelem szempontjából is fontos szerepet játszik, jelentős 
+                        százalékban foglalkoztatja az egyes országrészek lakosságát, és hozzájárul a vidékfejlesztéshez. 
+                        Magyarországon a mezőgazdaság a foglalkoztatottak 4,5%-át alkalmazza. Az EU mezőgazdasági támogatásaira 
+                        pályázhatnak a gazdák, termékeiket pedig az uniós piacra is eladhatják. Azonban bizonyos termékek esetében 
+                        az EU más országok gazdáit támogatta, ami kedvezőtlen hatással lehetett az adott termények termelésére. 
+                        Németország az egyik fő vevője a magyar élelmiszer-gazdaság árucikkeinek.  
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Gazdaság</h3>
+                    <p>
+                        A magyar termékek sikereinek fenntartásához folyamatosan fejleszteni kell a technológiát, 
+                        betartani a szigorú minőségi előírásokat és versenyképes árakat kínálni. Fontos az egészséges 
+                        táplálkozás iránti igényekhez való alkalmazkodás is, például a bioélelmiszerek és génmódosítástól 
+                        mentes termékek előállításával. Ugyanakkor a hazai vállalkozások nehezen tudnak versenyezni a 
+                        nagy külföldi cégekkel, és a nagyvállalatok olcsó árai nehéz helyzetbe hozhatják a 
+                        magyar termelőket, mivel elcsábítják tőlük a vásárlókat.
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Gazdaság</h3>
+                    <p>
+                        Magyarország természeti kincsei közé tartozik a termőföld, különösen a mezőségi és barna erdőtalajok. Az országban 
+                        magas a szántóföldek aránya (44%, ami Dánia után az Európában második legnagyobb), azonban a mezőgazdasági 
+                        termelésnek néhány hátrányos természeti vagy társadalmi feltétellel is számolnia kell.
+                    </p>
+                </div>
+            </div>
+            <h1>Hazánk energiagazdasága</h1>
+            <div class="hidden-row">
+                <div class="hidden-col">
+                    <h3>Energiagazdasága</h3>
+                    <p>Az energiaipar felelős a gazdaság és a lakosság energiaellátásáért. Ehhez szükség van az energiaforrások 
+                        kitermelésére és feldolgozására, majd az előállított energiát el kell juttatni a fogyasztókhoz. Az 
+                        energiaforrások természetes anyagok vagy jelenségek, amelyekből energiát nyerhetünk. Az elsődleges 
+                        energiaforrásokból, mint például a szénből vagy a vízenergiából, az erőművek állítják elő a másodlagos 
+                        energiaforrásokat, mint például az elektromos áramot vagy a távhőt, amelyeket a fogyasztók használnak.
+                        
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Energiagazdasága</h3>
+                    <p>Magyarország energiaigénye növekszik, és jelenleg csak mintegy 30%-át tudja saját maga előállítani. 
+                        A fogyasztók energiaigényének növekedése és az energia drágulása miatt egyre fontosabb az energiahatékonyság. 
+                        Az épületek fűtési költségeinek csökkentése mellett a megfelelő készülékhasználattal is sokat tehetünk az 
+                        energia megtakarítása érdekében.
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Nem megújuló energiahordozók</h3>
+                    <p>A legfontosabb energiaforrásaink közé tartozik a kőolaj és a földgáz. Az itthoni termelésünk csak körülbelül 20%-át 
+                        fedezi a keresletnek, ezért jelentős mértékű importra vagyunk szorulva mindkét nyersanyag esetében. Az orosz 
+                        szénhidrogén csövek szállítják az importot. Az országunk elektromos áramának körülbelül felét a Paks II atomerőmű 
+                        biztosítja, amely már az 1980-as évek óta működik. Az erőmű modernizálása már megtörtént, és az elkövetkező években 
+                        várhatóan csak 2032-2037 között kell majd leállítani. A Paks II bővítése várhatóan a 2020-as évek végére fejeződik be.
+                    </p>
+                </div>
+            </div>
+            <div class="hidden-row">
+                <div class="hidden-col">
+                    <h3>Megújuló energiahordozók</h3>
+                    <p>Magyarország célja, hogy 2030-ig legalább 21%-ra emelje a megújuló energiaforrások arányát. Azonban a 
+                        szélerőművek hátránya, hogy az általuk termelt energia hiányzik a hálózatból szélcsend esetén. A vízenergia 
+                        hasznosítása nem jelentős hazánkban, bár a kiskörei vízerőmű a legnagyobb teljesítményű, és számos kisebb 
+                        erőmű is működik. A napenergia felhasználása is lehetséges, és számítások szerint akár a melegvíz-használat 
+                        energiaszükségletének háromnegyed részét, vagy a fűtésének egyharmadát is képes lenne fedezni. A geotermikus 
+                        energiahasznosítás is fontos megújuló energiaforrás, amely a föld alatti magas hőmérsékletű víz hőjét 
+                        hasznosítja. 
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Megújuló energiahordozók</h3>
+                    <p>A biomassza is jelentős energiaforrás, amelynek energiatartalmát égetéssel vagy más kevésbé 
+                        szennyező módszerekkel nyerhetjük ki. Azonban a bioüzemanyagok terjedésének hátránya a nagy területigény, 
+                        és ha élelmiszernövények helyett a növényeket azok előállításához termesztjük, akkor csökkenhet az előállított 
+                        élelem mennyisége, és emelkedhet az ára. A biogáz felhasználása nem csak az energiatermelésben kulcsfontosságú, 
+                        hanem a hulladékok veszélyes anyagainak ártalmatlanításában is szerepet játszik.</p>
+                </div>
+            </div>
+            <h1>A hazai ipar jelene és jövője</h1>
+            <div class="hidden-row">
+                <div class="hidden-col">
+                    <h3>Gépipar</h3>
+                    <p>Manapság a gépipar és vegyipar sikeres iparágak (húzóágazatok) Magyarországon. A vállalatok részben külföldi 
+                        tulajdonban vannak, ami segíti a szükséges fejlesztéshez szükséges pénz és modern technológia beszerzését. 
+                        Ezek a két iparágak állnak az ipari termelésünk háromnegyed részéért és az ipari export ötödéért.
+                        A gépipari vállalatok a növekvő keresletnek köszönhetően gyorsan növelik termelésüket. A gépipar 
+                        térbeli helyzete változott: Budapest korábbi vezető szerepe csökkent, és a jól megközelíthető, szakképzett 
+                        munkaerővel rendelkező vidéki városok váltak fontossá. Az autógyártás alapvetően személyautókat és alkatrészeket 
+                        állít elő (Opel, Audi, Suzuki, Mercedes-Benz). 
+                    </p>
+                </div> 
+                <div class="hidden-col">
+                    <h3>Gépipar</h3>
+                    <p>Az autók nagyobb része az európai piacokra kerül, ezek 
+                        hazánk legfőbb exporttermékei. Az ágazat több tízezer embert foglalkoztat az autógyárakon kívül, hiszen sok 
+                        hazai beszállító vállalkozás gyárt alkatrészeket. A vegyipar termékeit széles körben használjuk az élet minden 
+                        területén. A külföldi tulajdonban lévő nagyvállalatok meghatározó szerepet játszanak a magyar vegyiparban, és 
+                        termékeik jelentős részét külföldön értékesítik. Az ipar működése súlyos környezeti károkat is okozhat, ezért 
+                        különösen fontos a szigorú környezetvédelmi szabályok betartása.</p>
+                </div>    
+                <div class="hidden-col">
+                    <h3>Tudás fontossága</h3>
+                    <p>A gazdaság változó igényeinek való megfeleléshez a megújuló tudásra kell összpontosítani, amit az egyetemek, 
+                        kutatóközpontok és technológiai vállalkozások támogatásával lehet elérni. A tudásparkok (technológiai parkok) 
+                        segíthetnek a felzárkózásban, ahol az egyetemek, kutatóintézetek és vállalatok együttműködve tudnak dolgozni a 
+                        kutatás és fejlesztés terén. Jelenleg ilyen kezdeményezések vannak Budapesten, Debrecenben, Szegeden és Kecskeméten.
+                        A tudásipar (pl. szoftverfejlesztés) legfontosabb előfeltétele az erős oktatási rendszer, a kutatás-fejlesztésre 
+                        fordított költségek növelése és a befektetők jelenléte.</p>
+                </div>                     
+            </div>
+            <h1>Magyarország infrastruktúrája</h1>
+            <div class="hidden-row">
+                <div class="hidden-col">
+                    <h3>Közlekedési hálózat</h3>
+                    <p>Infrastruktúra: A gazdaság működését biztosító műszaki feltételek (létesítményeket, hálózatokat, 
+                        hozzáférést, intézményeket). Hatékonyan működő gazdasághoz fejlett infrastruktúrára van szükség. 
+                        Magyarországon fontos szerepet játszik az átmenő forgalom, amelynek fő útvonalai Budapestről indulnak 
+                        és az országon áthaladva elvezetnek a Balkánra, a Közel-Keletre, valamint Kelet-Európába. Az ország 
+                        közlekedési hálózata főként Budapestre összpontosul, ahonnan a fő útvonalak a vidéki városok felé irányulnak, 
+                        azonban azok közötti kapcsolat hiányos. A kelet-nyugati irányú közlekedést nehezíti, hogy a Duna déli szakaszán, 
+                        a fővárostól délre kevés híd áll rendelkezésre.
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Közlekedés</h3>
+                    <p>Az áru- és személyszállításban Magyarországon a közúti közlekedés a legfontosabb. A gyorsforgalmi úthálózat, 
+                        amely autópályákból és autóutakból áll, körülbelül 2100 kilométer hosszú és a közlekedési hálózat gerincét képezi.
+                        A vasúti közlekedés korlátai közé tartozik, hogy azon kevés a kétvágányú és villamosított pályaszakasz. Az 
+                        infrastruktúra folyamatosan korszerűsödik, de jelenleg csak a Budapest-Hegyeshalom-Bécs vonal alkalmas nagyobb 
+                        sebességre (160 km/h). Az egyvágányú, dízelvontatású mellékvonalak sínpárjai elavultak, a vonatok sebessége alacsony, 
+                        a forgalom pedig kicsi. A vízi közlekedésnek főként az áruszállítás (a Duna folyón) és a turizmusban 
+                        (a Balatonon és a Dunakanyarban) van jelentősége. Az ország kicsi mérete miatt a légi közlekedés 
+                        csak a nemzetközi forgalomban számít fontosnak. 
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Közlekedés</h3>
+                    <p>A Liszt Ferenc Nemzetközi Repülőtéren az utasforgalom 16 millió főt meghaladó volt, de 2020-ban 
+                        a koronavírus-járvány miatt az utasok száma az egynegyedére csökkent. Az ország két helyszínén működik kisebb nemzetközi repülőtér, 
+                        az egyik Debrecenben, a másik pedig a Balaton melletti Sármelléken. A folyékony és légnemű nyersanyagok, például 
+                        a földgáz és a kőolaj, valamint a különböző termékek, mint az üzemanyagok, etilén és ammónia, a kitermelési helyekről 
+                        vagy külföldről érkeznek és azokat a feldolgozó- vagy fogyasztóüzemekbe szállítják csővezetéken keresztül.
+                        Az 21. században a kommunikációs infrastruktúra fejlesztése nagy előrelépéseket tett az internethasználat és a 
+                        mobiltelefonok elterjedése révén.
+                    </p>
+                </div>
+            </div>
+            <h1>Hazánk idegenforgalma</h1>
+            <div class="hidden-row">
+                <div class="hidden-col">
+                    <h3>Turizmus</h3>
+                    <p>Az utazási ipar Magyarországon a belföldi turizmusból, amely magában foglalja a hazai lakosság hazai utazásait, 
+                        és a külföldiek hazánkba tett látogatásait, vagyis a nemzetközi turizmust alkotja. Az utóbbi években növekedett 
+                        azoknak a turistáknak a száma, akik az európai szomszédos országokból vagy az egész világból érkeznek Magyarországra. 
+                        Az utazások egyre népszerűbbek és elérhetőbbek az emberek számára, mivel növekedtek a jövedelmek, a szabadidő, 
+                        mint például a fizetett szabadság, elterjedése, és fejlődött a közlekedési infrastruktúra, mint például az 
+                        olcsóbb repülőjegyek. Magyarország földrajzi, történelmi és kulturális adottságai sok belföldi és külföldi 
+                        turistát vonzanak.
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Turizmus fajtái</h3>
+                    <p>Az idegenforgalom egy fontos része a belföldi és külföldi hivatásturizmus. A konferenciák, kiállítások és más 
+                        szakmai rendezvények nagy bevételt jelentenek az utazóknak. Az üdülőturizmus a legnépszerűbb szabadidős 
+                        tevékenység, amely főként folyók, tavak és tengerek (pl. Balaton, Duna, Tisza, Velencei-tó) partján zajlik. 
+                        A történelmi helyszínek, mint Pécs, Sopron és Eger, népszerű városlátogatási célpontok. A falusi turizmus a 
+                        nagyvárosokból érkező emberek pihenési igényeit elégíti ki. Az Őrség, a Cserehát és Szatmár vidéke fontos 
+                        szerepet játszik a munkahelyek megtartásában. A kulturális turizmus is népszerű városi látnivalókkal és 
+                        emlékhelyekkel vonzza a látogatókat, például múzeumokkal, kastélyokkal és várakkal. 
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3>Turizmus fajtái</h3>
+                    <p>A gyógyturizmus célja az 
+                        egészségmegőrzés és betegségek kezelése, amelynek során a külföldi gyógyfürdők, mint Budapest, Hévíz, 
+                        Hajdúszoboszló és Gyula hosszú évek óta népszerűek. Az elmúlt években a wellness turizmus is növekvő trenddé 
+                        vált. Az ökoturizmus a minimális környezetterhelés elvére épül, és elsősorban hegyvidékekre és nemzeti parkokba 
+                        irányul. A rendezvényturizmus az óriási tömegeket mozgatja meg, például a zenei, sport- és kulturális események. 
+                        A bevásárlóturizmus főként a határ menti területekre jellemző.
+                    </p>
+                </div>
+            </div>
+            <h1>Az idegenforgalom szerepe a gazdaságban</h1>
+            <div class="hidden-row">
+                <div class="hidden-col">
+                    <h3>Gazdasági szerep</h3>
+                    <p>Az idegenforgalom gazdasági jelentőségének elemzése
+                        nem egyszerű. A turisták közvetlenül hoznak bevételeket a szálláshelyeken és az ételeket-italokat kínáló helyeken, 
+                        valamint a turisztikai szolgáltatások (pl. utazási irodák, jegyek, kölcsönzés) árán. Emellett közvetett bevételek 
+                        is keletkeznek, amelyek a vendégek közlekedéséből, üzemanyag-vásárlásából és vásárlásaiból származnak.
+                        A turizmushoz megfelelő infrastruktúra szükséges, mint például jó minőségű utak, elegendő parkolóhelyek, hatékony 
+                        tömegközlekedés és látványos világítás a látogatott helyeken. A turizmus jelentős bevételt generálhat egy ország 
+                        számára, azonban jelentős kiadásokkal és beruházásokkal is jár. A turizmus gazdasági hatása azonban az egyenlegen 
+                        múlik, hogy az ország számára milyen fontos szerepet játszik.
+                        
+                    </p>
+                </div>
+                <div class="hidden-col">
+                    <h3></h3>
+                    <p>Magyarországon az idegenforgalom a GDP 8%-át adja, és a munkavállalók 10%-át foglalkoztatja. Azonban a magyar 
+                        turizmus hátránya az időszakosság, mivel a turisztikai szezon általában csak néhány hónapot tart (július-augusztus). 
+                        Ilyenkor azonban a legnagyobb a zsúfoltság és a helyi lakosság zavarása.
+                        Kiemelt feladat a kevésbé vonzó országrészek turizmusba való bevonása, a legnépszerűbb helyek, például a Balaton, 
+                        Budapest és a termálfürdők terhelésének csökkentése érdekében.
+                    </p>
+                </div>
+            </div>
+            <button onclick="hideDiv('magyar');return false;" id="closeBtn">Bezár</button>
         </div>
 
         <div class="hidden" id="malta" style="display: none;">
@@ -2669,8 +3051,8 @@
     <section class="footer">
         <div class="footer-container">
             <div>
-                <h1>Világjáró</h1>
-                <p>© 2021 Világjáró</p>
+                <h1>VILÁGLÁTÓ</h1>
+                <p>© 2023 VILÁGLÁTÓ</p>
             </div>
             <div>
                 <h1>Kapcsolat</h1>
