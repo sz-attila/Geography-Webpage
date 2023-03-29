@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>VILÁGLÁTÓ</title>
-    <link rel="stylesheet" href="CSS/oceania-memory-style.css">
+    <link rel="stylesheet" href="CSS/kapcsolat-style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +11,7 @@
     <script src="https://use.fontawesome.com/df65ae6f97.js"></script>
     <script type="text/javascript" src="SCRIPTS/menu.js"></script>  
 </head>
-<body>
+<body>  
     <section class="header"> 
         <nav>
             <a class="title">VILÁGLÁTÓ</a>
@@ -37,22 +37,37 @@
             <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="inst-container">
-            <h1>SOROLD FEL!</h1>
-            <h3>DÉL-AMERIKA</h3>
+            <h1>KAPCSOLAT</h1>
+            <h2>Oszd meg kérdéseidet és észrevételeidet!</h2>
         </div>
-    </section>    
-    <section class="game-container">
-        <div class="game">
-            <button id="start">Időzítő indítása</button>
-            <p><span id="timer">05:00</span></p>
-            <input type="text" id="answer" placeholder="Írd be az ország nevét" disabled>
-            <p id="guesses-remaining"></p>
-            <h2>KITALÁLT ORSZÁGOK:</h2>
-            <div id="guessed-countries">
-            </div>
-            <script src="SCRIPTS/del-amerika-memory-game.js"></script>
-        </div>
-        <br>
+    </section>
+    <section class="content">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>Vedd fel a kapcsolatot!</h3>
+            <p>Név:</p>
+            <input type="text" id="name" placeholder="Írd ide a neved!" required>
+            <p>Email:</p>
+            <input type="email" id="email" placeholder="Írd ide az e-mail címed!" required>
+            <textarea id="message" rows="4" placeholder="Írd ide az üzeneted!" required></textarea>
+            <button type="submit">Elküldés</button>
+        </form>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail(){
+                Email.send({
+                    SecureToken: "6D0904AD-0587-4D84-894F-92B5E66B5337",
+                    From : 'vilaglatogeo@gmail.com',
+                    To : 'vilaglatogeo@gmail.com',
+                    Subject : "Új üzenet érkezett a Világlátó oldalról",
+                    Body : "Name : " + document.getElementById("name").value + 
+                    "<br/>Email : " + document.getElementById("email").value + 
+                    "<br/>Message : " + document.getElementById("message").value
+                }).then(
+                    message => alert(message)
+                );
+
+            }
+        </script>
     </section>
     <section class="footer">
         <div class="footer-container">

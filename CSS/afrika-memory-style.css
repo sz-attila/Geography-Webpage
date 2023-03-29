@@ -244,7 +244,6 @@ nav .fa{
     background-color: sandybrown;
     background-position: center;
     background-size: cover;
-    position: absolute;
 }
 .footer-container{
     display: flex;
@@ -258,7 +257,6 @@ nav .fa{
     font-size: 14px;
     font-weight: bold;
 }
-
 /*FOOTER SECTION - END*/
 
 /*RESPONSIVE DESIGN - START*/

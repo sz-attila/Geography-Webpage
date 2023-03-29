@@ -241,7 +241,6 @@ nav .fa{
     background-color: goldenrod;
     background-position: center;
     background-size: cover;
-    position: absolute;
 }
 .footer-container{
     display: flex;
