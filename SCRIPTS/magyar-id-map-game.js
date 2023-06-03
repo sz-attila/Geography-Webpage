@@ -1,5 +1,3 @@
-let countries = [];
-
 const mapContainer = document.getElementById("map-container");
 const startButton = document.getElementById("start");
 const blindMap = document.getElementById("blindmap");
@@ -7,6 +5,8 @@ const countryList = document.getElementById("country-list");
 const submitButton = document.getElementById("submit");
 const restartButton = document.getElementById("restart");
 const resultEl = document.getElementById("result");
+
+let countries = [];
 
 mapContainer.style.display = "none";
 blindMap.style.display = "none";

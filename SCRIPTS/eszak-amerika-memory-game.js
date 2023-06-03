@@ -30,7 +30,7 @@ startButton.addEventListener("click", () => {
 function startGame() {
     guessedCountries = [];
     guessedList.innerHTML = '';
-
+    timeLeft = 300;
     startButton.disabled = true;
     answerInput.disabled = false;
     answerInput.focus();
@@ -78,7 +78,7 @@ function checkAnswer() {
         }
     }
 }
-
+s
 function startTimer() {
     timerInterval = setInterval(() => {
         timeLeft--;

@@ -3,6 +3,7 @@ const questionContainer = document.getElementById('question-container');
 const submitButton = document.getElementById('submit-button');
 const resetButton = document.getElementById('reset-button');
 const resultContainer = document.getElementById('result-container');
+let score = 0;
 
 const quizQuestions = [
     {
@@ -92,8 +93,6 @@ const quizQuestions = [
     }
 ];
 
-let score = 0;
-
 function displayQuestions() {
     quizQuestions.forEach((question, index) => {
     const questionElement = document.createElement('div');
@@ -119,6 +118,9 @@ function displayQuestions() {
     questionContainer.appendChild(questionElement);
 });
 }
+
+displayQuestions();
+
 
 function showResult() {
     const answerInputs = document.querySelectorAll('input:checked');
@@ -167,4 +169,3 @@ submitButton.addEventListener('click', event => {
     submitQuiz();
 });
 
-displayQuestions();

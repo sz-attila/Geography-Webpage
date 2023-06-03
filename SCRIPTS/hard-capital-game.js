@@ -94,7 +94,7 @@ let remainingTime;
 
 function startCountdown() {
   remainingTime = TIME_LIMIT;
-  timerDisplay.textContent = `Hátralévő idő: ${remainingTime}s`;
+  timerDisplay.textContent = `Hátralévő idő: ${remainingTime}`;
   clearInterval(timerId);
   timerId = setInterval(() => {
     remainingTime--;
@@ -107,7 +107,7 @@ function startCountdown() {
         finishGame();
       }
     } else {
-      timerDisplay.textContent = `Hátralévő idő: ${remainingTime}s`;
+      timerDisplay.textContent = `Hátralévő idő: ${remainingTime}`;
     }
   }, 1000);
 }

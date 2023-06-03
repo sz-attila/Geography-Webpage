@@ -145,7 +145,6 @@ nav .fa{
 }
 /*AFRIKA*/
 #af{
-    background: transparent;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -167,13 +166,11 @@ nav .fa{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    color: white;
-    font-size: 20px;
+    color: sandybrown;
+    -webkit-text-stroke: 2px saddlebrown;
     transition: 1s;
 }
 #af:hover h3{
-    color: sandybrown;
-    -webkit-text-stroke: 2px saddlebrown;
     font-size: 60px;
 }
 

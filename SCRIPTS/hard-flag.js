@@ -6,7 +6,11 @@ const score = document.getElementById("score");
 const pointsSpan = score.appendChild(document.createElement("span"));
 const start = document.getElementById("start");
 const restart = document.getElementById("restart");
+const TIME_LIMIT = 20;
 
+let timerDisplay = document.getElementById("timer");
+let timerId;
+let remainingTime;
 let usedFlagIndices = [];
 let flags = [];
 let points = 0;
@@ -18,34 +22,6 @@ submit.style.display = "none";
 restart.style.display = "none";
 score.style.display = "none";
 result.style.display = "none";
-
-answer.addEventListener("input", () => {
-  submit.disabled = !answer.value;
-});
-
-submit.addEventListener("click", () => {
-  const guess = answer.value.toLowerCase();
-  const correctAnswer = flags[currentFlagIndex].name.toLowerCase();
-  if (guess === correctAnswer) {
-    points++;
-    pointsSpan.textContent = points;
-    result.textContent = "Helyes!";
-    result.style.color = "green";
-    score.textContent = "Pontszám: " + points;
-  } else {
-    result.textContent = "Helytelen! A helyes válasz: " + correctAnswer + " volt.";
-    result.style.color = "red";
-    score.textContent = "Pontszám: " + points;
-  }
-  answer.value = "";
-  flagsRemaining--;
-  clearInterval(timerId);
-  if (flagsRemaining > 0) {
-    nextFlag();
-  } else {
-    finishGame();
-  }
-});
 
 start.addEventListener("click", () => {
   fetch("SCRIPTS/easy-flags.json")
@@ -60,8 +36,36 @@ start.addEventListener("click", () => {
     });
 });
 
+answer.addEventListener("input", () => {
+  submit.disabled = !answer.value;
+});
+
 restart.addEventListener("click", () => {
   restartGame();
+});
+
+submit.addEventListener("click", () => {
+  const guess = answer.value.toLowerCase();
+  const correctAnswer = flags[currentFlagIndex].name.toLowerCase();
+  if (guess === correctAnswer) {
+    points++;
+    pointsSpan.textContent = points;
+    result.textContent = "Helyes!";
+    result.style.color = "green";
+    score.textContent = "Pontszám: " + points;
+  } else {
+    result.textContent = "Helytelen! A helyes válasz: " + flags[currentFlagIndex].name + " volt.";
+    result.style.color = "red";
+    score.textContent = "Pontszám: " + points;
+  }
+  answer.value = "";
+  flagsRemaining--;
+  clearInterval(timerId);
+  if (flagsRemaining > 0) {
+    nextFlag();
+  } else {
+    finishGame();
+  }
 });
 
 function restartGame() {
@@ -87,14 +91,9 @@ function restartGame() {
   startCountdown();
 }
 
-const TIME_LIMIT = 20;
-let timerDisplay = document.getElementById("timer");
-let timerId;
-let remainingTime;
-
 function startCountdown() {
   remainingTime = TIME_LIMIT;
-  timerDisplay.textContent = `Hátralévő idő: ${remainingTime}s`;
+  timerDisplay.textContent = `Hátralévő idő: ${remainingTime}`;
   clearInterval(timerId);
   timerId = setInterval(() => {
     remainingTime--;
@@ -107,7 +106,7 @@ function startCountdown() {
         finishGame();
       }
     } else {
-      timerDisplay.textContent = `Hátralévő idő: ${remainingTime}s`;
+      timerDisplay.textContent = `Hátralévő idő: ${remainingTime}`;
     }
   }, 1000);
 }

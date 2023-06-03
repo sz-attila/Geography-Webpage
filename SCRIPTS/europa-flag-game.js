@@ -53,10 +53,6 @@ function restartGame() {
 }
 
 function nextFlag() {
-  if (usedFlagIndices.length >= flags.length) {
-    finishGame();
-    return;
-  }
   
   const buttonsContainer = document.createElement("div");
   buttonsContainer.classList.add("answer-buttons-container");

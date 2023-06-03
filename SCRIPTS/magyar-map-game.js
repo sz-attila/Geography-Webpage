@@ -79,7 +79,7 @@ function handleSubmit() {
         const country = countries[i];
         const guessEl = document.querySelectorAll("#country-list input")[i];
         const guess = guessEl.value.trim().toLowerCase();
-
+        
         if (guess === country.id.toString()) {
             guessEl.style.backgroundColor = "green";
             correctAnswers++;
